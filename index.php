@@ -5,10 +5,10 @@ Public_page::header();
 ?>
 
   <ul class="sidenav" id="mobile-demo">
-    <li><a href="sass.html">Sass</a></li>
-    <li><a href="badges.html">Components</a></li>
-    <li><a href="collapsible.html">Javascript</a></li>
-    <li><a href="mobile.html">Mobile</a></li>
+    <li><a href="sass.html">Nosotros</a></li>
+    <li><a href="badges.html">Contactanos</a></li>
+    <li><a href="collapsible.html">Galeria de Productos</a></li>
+    <li><a href="mobile.html">Iniciar Sesión</a></li>
   </ul>
 
   <div class="slider">
