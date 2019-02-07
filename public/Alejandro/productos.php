@@ -7,4 +7,5 @@ Public_page::header();
 </div>
 <?php
 Public_page::footer();
+
 ?>
