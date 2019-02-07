@@ -6,11 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pop Movies</title>
      <!--Import Google Icon Font-->
-     <link href="../resources/css/material_icons.css" rel="stylesheet">
+     <link href="../../resources/Alejandro/css/material_icons.css" rel="stylesheet">
             <!--Import materialize.css-->
-            <link type="text/css" rel="stylesheet" href="../resources/css/materialize.min.css"  media="screen,projection"/>
-            <link type="text/css" rel="stylesheet" href="../resources/css/home.css"  media="screen,projection"/>
-</head>
+            <link type="text/css" rel="stylesheet" href="../../resources/Alejandro/css/materialize.min.css"  media="screen,projection"/>
+            <link type="text/css" rel="stylesheet" href="../../resources/Alejandro/css/home.css"  media="screen,projection"/></head>
 <body>
 <nav class="m-5" id="NavBar">
     <div class="nav-wrapper">
@@ -36,7 +35,7 @@
     <div class="col s12 m7 ">
         <div class="card ">
             <div class="card-image center-align">
-                <img src="../resources/img/Pages/CapiDiosa.jpg" alt="">
+                <img src="../../Alejandro/resources/img/Pages/CapiDiosa.jpg" alt="">
             </div>
         </div>
     </div>            
@@ -71,7 +70,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <video class="responsive-video" controls>
-                                    <source src="../resources/Videos/CaptainMarvelOne.mp4" type="video/mp4">
+                                    <source src="../../resources/Videos/CaptainMarvelOne.mp4" type="video/mp4">
                                 </video>
                             </div>
                         </div>
@@ -80,7 +79,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <video class="responsive-video" controls>
-                                    <source src="../resources/Videos/CaptainMarvelTwo.mp4" type="video/mp4">
+                                    <source src="../../resources/Videos/CaptainMarvelTwo.mp4" type="video/mp4">
                                 </video>
                             </div>
                         </div>
@@ -89,7 +88,7 @@
                         <div class="card">
                             <div class="card-image">
                                 <video class="responsive-video" controls>
-                                    <source src="../resources/Videos/CaptainMarvelTvSpot.mp4" type="video/mp4">
+                                    <source src="../../resources/Videos/CaptainMarvelTvSpot.mp4" type="video/mp4">
                                 </video>
                             </div>
                         </div>
@@ -98,8 +97,8 @@
         </div>
     </div>
 </div>
-    <script type="text/javascript" src="../resources/js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="../resources/js/materialize.min.js"></script>
-    <script type="text/javascript" src="../resources/js/pages/pages.js"></script>
+    <script type="text/javascript" src=".../resources/Alejandro/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src=".../resources/Alejandro/js/materialize.min.js"></script>
+    <script type="text/javascript" src=".../resources/Alejandro/js/pages/pages.js"></script>
 </body>
 </html>
