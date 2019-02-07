@@ -10,10 +10,10 @@ class Public_page{
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
             <!--Import Google Icon Font-->
-            <link href="resources/css/material_icons.css" rel="stylesheet">
+            <link href="resources/Alejandro/css/material_icons.css" rel="stylesheet">
             <!--Import materialize.css-->
-            <link type="text/css" rel="stylesheet" href="resources/css/materialize.min.css"  media="screen,projection"/>
-            <link type="text/css" rel="stylesheet" href="resources/css/home.css"  media="screen,projection"/>
+            <link type="text/css" rel="stylesheet" href="resources/Alejandro/css/materialize.min.css"  media="screen,projection"/>
+            <link type="text/css" rel="stylesheet" href="resources/Alejandro/css/home.css"  media="screen,projection"/>
             <title>Pop Movies</title>
         </head>
         <body>
@@ -60,12 +60,12 @@ class Public_page{
                 </div>
             </footer>
             <!--JavaScript at end of body for optimized loading-->
-            <script type="text/javascript" src="resources/js/jquery-3.2.1.min.js"></script>
-            <script type="text/javascript" src="resources/js/materialize.min.js"></script>
-            <script type="text/javascript" src="resources/js/public.js"></script>
-            <script type="text/javascript" src="resources/js/collapsile.js"></script>
-            <script type="text/javascript" src="resources/js/carrousel.js"></script>
-            <script type="text/javascript" src="resources/js/CardSlider.js"></script>
+            <script type="text/javascript" src="resources/Alejandro/js/jquery-3.2.1.min.js"></script>
+            <script type="text/javascript" src="resources/Alejandro/js/materialize.min.js"></script>
+            <script type="text/javascript" src="resources/Alejandro/js/public.js"></script>
+            <script type="text/javascript" src="resources/Alejandro/js/collapsile.js"></script>
+            <script type="text/javascript" src="resources/Alejandro/js/carrousel.js"></script>
+            <script type="text/javascript" src="resources/Alejandro/js/CardSlider.js"></script>
         </body>
         </html>
         ');

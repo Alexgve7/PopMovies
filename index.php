@@ -1,5 +1,5 @@
 <?php
-include "core/helpers/public_page.php";
+include "core/Alejandro/helpers/public_page.php";
 include("core/api/db.php");
 Public_page::header();
 ?>
@@ -14,27 +14,27 @@ Public_page::header();
   <div class="slider">
     <ul class="slides">
       <li>
-        <img src="resources/img/slider/CapMarvel.jpg"> <!-- random image -->
+        <img src="resources/Alejandro/img/slider/CapMarvel.jpg"> <!-- random image -->
         <div class="caption center-align">
           
         </div>
       </li>
       <li>
-        <img src="resources/img/slider/EndGame.jpg"> <!-- random image -->
+        <img src="resources/Alejandro/img/slider/EndGame.jpg"> <!-- random image -->
         <div class="caption right-align">
           <h3>Left Aligned Caption</h3>
           <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
         </div>
       </li>
       <li>
-        <img src="resources/img/slider/Shazam.jpg"> <!-- random image -->
+        <img src="resources/Alejandro/img/slider/Shazam.jpg"> <!-- random image -->
         <div class="caption right-align">
           <h3>Right Aligned Caption</h3>
           <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
         </div>
       </li>
       <li>
-        <img src="resources/img/slider/ToyStory.png"> <!-- random image -->
+        <img src="resources/Alejandro/img/slider/ToyStory.png"> <!-- random image -->
         <div class="caption center-align">
          
         </div>
@@ -58,7 +58,7 @@ Public_page::header();
     <div class="col s12 m6 l4">
       <div class="card z-depth-4" id="OneNew">
         <div class="card-image">
-          <img src="resources/img/news/Ronin.jpg">
+          <img src="resources/Alejandro/img/news/Ronin.jpg">
           
         </div>
         <div class="card-content">
@@ -79,7 +79,7 @@ Public_page::header();
     <div class="col s12 m6 l4">
       <div class="card z-depth-4" id="TwoNew">
         <div class="card-image">
-          <img src="resources/img/news/AvengersEndGame.jpg">
+          <img src="resources/Alejandro/img/news/AvengersEndGame.jpg">
           
         </div>
         <div class="card-content">
@@ -99,7 +99,7 @@ De una u otra manera, flashbacks o viajes en el tiempo, estas fotos han cobrado 
     <div class="col s12 m6 l4">
       <div class="card z-depth-4" id="ThreeNew">
         <div class="card-image">
-          <img src="resources/img/news/BenAffleck.png">
+          <img src="resources/Alejandro/img/news/BenAffleck.png">
           
         </div>
         <div class="card-content">
@@ -132,7 +132,7 @@ De una u otra manera, flashbacks o viajes en el tiempo, estas fotos han cobrado 
           
       <div class="card-image ">
 
-        <img src="resources/img/estrenos/CaptainMarvel.jpg" />
+        <img src="resources/Alejandro/img/estrenos/CaptainMarvel.jpg" />
         
       
       </div>
@@ -142,7 +142,7 @@ De una u otra manera, flashbacks o viajes en el tiempo, estas fotos han cobrado 
         <span class="card-title">Capitana Marvel</span>  
         
         <p>¿Quieres saber más de esta fantastica pelicula? Hecha un vistazo!</p>
-        <a href="public/CaptainMarvel.php">Ver Información</a>
+        <a href="public/Alejandro/CaptainMarvel.php">Ver Información</a>
         
       </div>
 
@@ -152,7 +152,7 @@ De una u otra manera, flashbacks o viajes en el tiempo, estas fotos han cobrado 
     <div class="carousel-item">
       <div class="card">
         <div class="card-image">
-          <img src="resources/img/estrenos/EndGame.png">
+          <img src="resources/Alejandro/img/estrenos/EndGame.png">
          
         </div>
        
@@ -161,7 +161,7 @@ De una u otra manera, flashbacks o viajes en el tiempo, estas fotos han cobrado 
           <span class="card-title">End Game</span>  
         
           <p>I am a very simple card.</p>
-          <a href="public/EndGame.php">Ver Información</a>
+          <a href="public/Alejandro/EndGame.php">Ver Información</a>
         
         </div>
        
@@ -171,7 +171,7 @@ De una u otra manera, flashbacks o viajes en el tiempo, estas fotos han cobrado 
     <div class="carousel-item">
       <div class="card">
         <div class="card-image">
-          <img src="resources/img/estrenos/SpiderFarFromHome.jpeg">
+          <img src="resources/Alejandro/img/estrenos/SpiderFarFromHome.jpeg">
           
         </div>
         <div class="card-content">
@@ -188,7 +188,7 @@ De una u otra manera, flashbacks o viajes en el tiempo, estas fotos han cobrado 
     <div class="carousel-item">
       <div class="card">
         <div class="card-image">
-          <img src="resources/img/estrenos/Shazam.jpg">
+          <img src="resources/Alejandro/img/estrenos/Shazam.jpg">
           
         </div>
         <div class="card-content">
@@ -205,7 +205,7 @@ De una u otra manera, flashbacks o viajes en el tiempo, estas fotos han cobrado 
       <div class="card">
         <div class="card-image">
           
-        <img src="resources/img/estrenos/ShawandHobbs.jpg">
+        <img src="resources/Alejandro/img/estrenos/ShawandHobbs.jpg">
           
         </div>
         <div class="card-content">
@@ -233,7 +233,7 @@ De una u otra manera, flashbacks o viajes en el tiempo, estas fotos han cobrado 
       <div class="col s10 m2">
         <div class="card">
           <div class="card-image responsive-image">
-            <img src="resources/img/Products/Annabelle.jpg">
+            <img src="resources/Alejandro/img/Products/Annabelle.jpg">
             
             <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
           </div>
@@ -245,7 +245,7 @@ De una u otra manera, flashbacks o viajes en el tiempo, estas fotos han cobrado 
       <div class="col s10 m2">
         <div class="card">
           <div class="card-image responsive-image">
-            <img src="resources/img/Products/Annabelle2.jpg">
+            <img src="resources/Alejandro/img/Products/Annabelle2.jpg">
            
           </div>
           <div class="card-content">
@@ -256,7 +256,7 @@ De una u otra manera, flashbacks o viajes en el tiempo, estas fotos han cobrado 
       <div class="col s10 m2">
         <div class="card">
           <div class="card-image responsive-image">
-            <img src="resources/img/Products/Avengers.jpg">
+            <img src="resources/Alejandro/img/Products/Avengers.jpg">
            
           </div>
           <div class="card-content">
@@ -267,7 +267,7 @@ De una u otra manera, flashbacks o viajes en el tiempo, estas fotos han cobrado 
       <div class="col s10 m2">
         <div class="card">
           <div class="card-image responsive-image">
-            <img src="resources/img/Products/AgeOfUltron.jpeg">
+            <img src="resources/Alejandro/img/Products/AgeOfUltron.jpeg">
            
           </div>
           <div class="card-content">
@@ -278,7 +278,7 @@ De una u otra manera, flashbacks o viajes en el tiempo, estas fotos han cobrado 
       <div class="col s10 m2">
         <div class="card">
           <div class="card-image responsive-image">
-            <img src="resources/img/Products/CapitanAmerica.jpg">
+            <img src="resources/Alejandro/img/Products/CapitanAmerica.jpg">
            
           </div>
           <div class="card-content">
@@ -289,7 +289,7 @@ De una u otra manera, flashbacks o viajes en el tiempo, estas fotos han cobrado 
       <div class="col s10 m2">
         <div class="card">
           <div class="card-image responsive-image">
-            <img src="resources/img/Products/CapitanAmerica2.jpg">
+            <img src="resources/Alejandro/img/Products/CapitanAmerica2.jpg">
            
           </div>
           <div class="card-content">
