@@ -1,0 +1,91 @@
+html{
+    background-color: white;
+}
+
+#NavBar{
+    background-color:#02182B;
+}
+
+#TitleNews{
+    background-color:#FFA400;
+    height: 3.5rem;
+}
+#NewsTitle{
+    position: relative;
+    top:-4px;
+    font-size: 2rem;
+}
+#NewsBackground{
+    background-color: white;
+}
+#newsIcon{
+    position: relative;
+    top:8px;
+    color:black;
+    font-size: 2.8rem;
+}
+#NewOne{
+font-size: 1.3rem;
+}
+#NewTwo{
+    font-size: 1.3rem;
+}
+#NewThree{
+    font-size: 1.3rem;
+}
+#TitleOne{
+    color:purple;
+}
+#OneNew{
+    position: relative;
+    top:0.5rem;
+}
+#TwoNew{
+    position: relative;
+    top:0.5rem;
+}
+#ThreeNew{
+    position: relative;
+    top:0.5rem;
+}
+#trailersIcon{
+    position: relative;
+    top:8px;
+    color:black;
+    font-size: 2.8rem;
+}
+
+#Options{
+    position: relative;
+    top:0.7rem;
+}
+.card-image.img
+{
+  height:200px !important; 
+}
+.carousel{
+    height: 890px;
+}
+.carousel-item{
+    
+}
+.material-icons.md1::before{
+  content:"search"; 
+}
+
+.material-icons.md1:hover::before{
+  content:"navigate_next"; 
+}
+#CardCarrousel{
+    position: relative;
+    top:-13rem;
+}
+#LogoI{
+    position: relative;
+    top:4px;
+}
+#TitleProducts{
+    position: relative;
+    top:-7rem;
+}
+
