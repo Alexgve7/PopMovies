@@ -9,6 +9,8 @@ html{
 #TitleNews{
     background-color:#FFA400;
     height: 3.5rem;
+    position: relative;
+    top:2rem;
 }
 #NewsTitle{
     position: relative;
@@ -17,6 +19,8 @@ html{
 }
 #NewsBackground{
     background-color: white;
+    position: relative;
+    top:3rem;
 }
 #newsIcon{
     position: relative;
@@ -24,6 +28,15 @@ html{
     color:black;
     font-size: 2.8rem;
 }
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
 #NewOne{
 font-size: 1.3rem;
 }
@@ -87,5 +100,41 @@ font-size: 1.3rem;
 #TitleProducts{
     position: relative;
     top:-7rem;
+}
+#TitlePrice{
+    position: relative;
+    left: 1rem;
+}
+#InformationTable{
+    position: relative;
+    left: 0.2rem;
+}
+.tabs .tab a{
+    background-color:white !important;
+    color:#000;
+} /*Black color to the text*/
+
+.tabs .tab a:hover {
+
+    background-color:white !important;
+    color:orange;
+} /*Text color on hover*/
+
+.tabs .tab a.active {
+    color:orange;
+} /*Background and text color when a tab is active*/
+
+.tabs .indicator {
+    background-color:orange;
+}  
+#CalidadIcon{
+    position: relative;
+    top:0.2rem;
+}
+#CalidadDescripcion{
+    font-size: 1.5rem;
+}
+#InformationNav{
+    height: 3rem;
 }
 
