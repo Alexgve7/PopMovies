@@ -99,7 +99,7 @@
     </div>
 </div>
 
-    <script type="text/javascript" src="../resources/Alejandro/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="resources/js/global/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../resources/Alejandro/js/materialize.min.js"></script>
     <script type="text/javascript" src="../resources/Alejandro/js/pages/pages.js"></script>
 </body>

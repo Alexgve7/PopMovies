@@ -70,7 +70,7 @@ class Public_page{
             </footer>
 
             <!--JavaScript at end of body for optimized loading-->
-            <script type="text/javascript" src="resources/Alejandro/js/jquery-3.2.1.min.js"></script>
+            <script type="text/javascript" src="resources/js/global/js/jquery-3.2.1.min.js"></script>
             <script type="text/javascript" src="resources/Alejandro/js/materialize.min.js"></script>
             <script type="text/javascript" src="resources/Alejandro/js/public.js"></script>
             <script type="text/javascript" src="resources/Alejandro/js/collapsile.js"></script>

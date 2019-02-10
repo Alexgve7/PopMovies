@@ -164,7 +164,7 @@ De una u otra manera, flashbacks o viajes en el tiempo, estas fotos han cobrado 
         <div class="card-content">
           <span class="card-title">SpiderMan Far From Home</span>  
           <p>I am a very simple card.</p>
-          <a href="#">Ver Trailer</a>
+          <a href="public/SpiderManFarFromHome.php">Ver Trailer</a>
         </div>
       </div>
     </div>
@@ -190,7 +190,7 @@ De una u otra manera, flashbacks o viajes en el tiempo, estas fotos han cobrado 
         <div class="card-content">
           <span class="card-title">Hobbs and Shaw</span>  
           <p>I am a very simple card.</p>
-          <a href="#">Ver Trailer</a>
+          <a href="public/HobbsandShaw.php">Ver Trailer</a>
         </div>
       </div>
     </div>
