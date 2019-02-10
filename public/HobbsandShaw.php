@@ -85,7 +85,7 @@
         </div>
     </div>
 </div>
-<script type="text/javascript" src="resources/js/global/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="../resources/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../resources/Candray/js/materialize.min.js"></script>
     <script type="text/javascript" src="../resources/Candray/js/pages/pages.js"></script>
 </body>
