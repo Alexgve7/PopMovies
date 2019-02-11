@@ -34,32 +34,71 @@
 </ul>
 
 <div class="container">
-    
-        <div class="col s12 m10 offset-m1">
-        
-            <div class="card">
-            
-                <div>
-                    <div class="card-content">
-                    <span class="card-title m10 offset-m1">Pone en contacto con nosotros!</span>
-                    <h5>Hola! Como cliente puedes enviarnos un correo para ponernos de acuerdo contigo!</h5>
-                    </div>
-                </div>
-
-            </div>
-
-           
-        <div class="card">
-        
-            
-        
-        
-        </div>
-
+  <div class="col s12 m10 offset-m1">
+    <div class="card ">
+      <div>
+          <div class="card-content">
+          <span class="card-title m10 offset-m1">Pone en contacto con nosotros!</span>
+          <h5>Hola! Como cliente puedes enviarnos un correo para ponernos de acuerdo contigo!</h5>
+          </div>
+      </div>
     </div>
-
+    <div class="card">
+      <div class="card-content">
+      <!--Contenido de la carta -->
+        <div class="row">
+        <!--Formulario para envio de comentarios y mensajes -->
+          <div class="col s12 m6">
+            <div class="card z-depth-4">
+              <div class="card-content black-text">
+                <div class="row">
+                  <form class="col s12">
+                    <div class="row">
+                      <div class="input-field col s8">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="icon_prefix" type="text" class="validate">
+                        <label for="icon_prefix">Nombre:</label>
+                      </div>
+                      <div class="input-field col s8">
+                        <i class="material-icons prefix">message</i>
+                        <textarea id="textarea1"  class="materialize-textarea"></textarea>
+                        <label for="icon_prefix">Mensaje:</label>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="card-action">
+                <a href="#">This is a link</a>
+              </div>
+            </div>
+          </div>
+          <!--Fin Formulario para envio de comentarios y mensajes -->
+          <!--Anuncio -->
+          <div class="col s12 m6">
+            <div class="card z-depth-4">
+              <div class="card-content black-text">
+                <div class="card-content z-depth-4 orange white-text">
+                  <span class="card-title">¡Recuerda!</span>
+                </div>
+                <div class="card">
+                  <div class="card-content">
+                    <span class="card-title">Te mantendremos informado de todas las noticias y tendencias del momento
+                    , conforme vayas visitando nuestro sitio web podras ver todas las noticias y estrenos en tendencias!</span>
+                  </div>              
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--FinAnuncio -->
+        <!--Contenido de la carta -->
+      </div>
+    </div>
+  </div>
 </div>
-<script type="text/javascript" src="../resources/js/jquery-3.2.1.min.js"></script>
+
+    <script type="text/javascript" src="../resources/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../resources/Alejandro/js/materialize.min.js"></script>
     <script type="text/javascript" src="../resources/Alejandro/js/pages/pages.js"></script>
 </body>
