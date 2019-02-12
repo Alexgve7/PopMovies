@@ -47,9 +47,8 @@ Public_page::header();
 <div class="row" id="TitleNews">
     <div class="nav-wrapper center" id="Options">
       <div class="col s18">
-        <a  class="breadcrumb 10">PopMovies</a>
-        <a  class="breadcrumb">Noticias</a>
-        
+        <a class="breadcrumb 10">PopMovies</a>
+        <a class="breadcrumb">Noticias</a>
       </div>
     </div>
 </div>
@@ -57,42 +56,16 @@ Public_page::header();
 <div class="row z-depth-4" id="NewsBackground">
 
     <div class="col s12 m6 l4">
-      <div class="card z-depth-4" id="OneNew">
+      <div class="card z-depth-4" id="ThreeNew">
         <div class="card-image">
-          <img src="resources/Alejandro/img/news/Ronin.jpg">
-          
+          <img src="resources/Alejandro/img/news/ProfesorHulk.jpg">
         </div>
         <div class="card-content">
-        <span class="card-title" id="TitleOne">!Ronin en Avengers End Game! :0</span>
-          <p id="NewOne">
-           El primer adelanto mostró el regreso de grandes personajes que se ausentaron en “Avengers: Infinity War” como el de Hawkeye, quien ahora adoptará una nueva identidad y dejará las flechas para usar una katana.
-
-
-           “Hemos perdido amigos, también familia… y una parte de nosotros”, es lo que se escucha decir a Steve Rogers para que luego aparezca la escena del regreso de Clint Barton, más conocido como Hawkeye, quien tras la desaparición de su familia con el chasquido de Thanos adopta la sangrienta forma de Ronin.
+        <span class="card-title">¿Veremos a profesor Hulk en Avengers End Game?</span>
+          <p id="NewThree">
+            Los posters de Avengers End Game, a hulk se le puede observar un nuevo 
+            traje por lo que nos lleva a pensar que bruce banner y hulk se pueden unir hulk pueda ser más civilizado y inteligente.
           </p>
-        </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col s12 m6 l4">
-      <div class="card z-depth-4" id="TwoNew">
-        <div class="card-image">
-          <img src="resources/Alejandro/img/news/AvengersEndGame.jpg">
-          
-        </div>
-        <div class="card-content">
-        <span class="card-title">Viajes en el tiempo en Avengers End Game</span>
-          <p id="NewTwo">
-          Las teorías apuntan que este sería el dispositivo para viajar en el tiempo, aunque otros han comentado que sería una manera de facilitar el "tracking" de un personaje para incluir los efectos especiales en la edición.
-
-De una u otra manera, flashbacks o viajes en el tiempo, estas fotos han cobrado cada vez más importancia con algunos datos que se han ido revelando, dando más fuerza a la posibilidad de que los Avengers hagan algún tipo de visita al pasado para impedir, o encontrar una manera de evitar, que Thanos destruya a la mitad de los seres vivos del universo
-          </p>
-        </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
         </div>
       </div>
     </div>
@@ -100,18 +73,121 @@ De una u otra manera, flashbacks o viajes en el tiempo, estas fotos han cobrado 
     <div class="col s12 m6 l4">
       <div class="card z-depth-4" id="ThreeNew">
         <div class="card-image">
-          <img src="resources/Alejandro/img/news/BenAffleck.png">
-          
+          <img src="resources/Alejandro/img/news/GodRonin.jpg">
+        </div>
+        <div class="card-content">
+        <span class="card-title">Doble identidad de Hawkeye en EndGame: Ronin</span>
+          <p id="NewThree">
+            Luego del chasquido hawkeye pierde a su familia por lo tanto que lo lleva a ocupar otra 
+            identidad en busca de justicia por la muerte de su familia.
+          </p>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="col s12 m6 l4">
+      <div class="card z-depth-4" id="ThreeNew">
+        <div class="card-image">
+          <img src="resources/Alejandro/img/news/FarFromHome.jpg">
+        </div>
+        <div class="card-content">
+        <span class="card-title">!Misterio confirmado para Far From Home!</span>
+          <p id="NewThree">
+            Ben Affleck dejará de ser el justiciero tras solo tres películas donde nunca fue el gran protagonista: 'Batman v Superman', 'Liga de la Justicia' y un simple cameo en 'Escuadrón Suicida'.
+          </p>
+        </div>
+       
+      </div>
+    </div>
+
+    <div class="col s12 m6 l4">
+      <div class="card z-depth-4" id="ThreeNew">
+        <div class="card-image">
+          <img src="resources/Alejandro/img/news/Forky2.jpg">
         </div>
         <div class="card-content">
         <span class="card-title">Ben Affleck deja de ser Batman</span>
           <p id="NewThree">
-          Ben Affleck dejará de ser el justiciero tras solo tres películas donde nunca fue el gran protagonista: 'Batman v Superman', 'Liga de la Justicia' y un simple cameo en 'Escuadrón Suicida'.
+            Ben Affleck dejará de ser el justiciero tras solo tres películas donde nunca fue el gran protagonista: 'Batman v Superman', 'Liga de la Justicia' y un simple cameo en 'Escuadrón Suicida'.
           </p>
         </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
+       
+      </div>
+    </div>
+
+    <div class="col s12 m6 l4">
+      <div class="card z-depth-4" id="ThreeNew">
+        <div class="card-image">
+          <img src="resources/Alejandro/img/news/DareDevil.jpg">
         </div>
+        <div class="card-content">
+        <span class="card-title">Ben Affleck deja de ser Batman</span>
+          <p id="NewThree">
+            Ben Affleck dejará de ser el justiciero tras solo tres películas donde nunca fue el gran protagonista: 'Batman v Superman', 'Liga de la Justicia' y un simple cameo en 'Escuadrón Suicida'.
+          </p>
+        </div>
+       
+      </div>
+    </div>
+
+    <div class="col s12 m6 l4">
+      <div class="card z-depth-4" id="ThreeNew">
+        <div class="card-image">
+          <img src="resources/Alejandro/img/news/ToyStoryOthers.jpg">
+        </div>
+        <div class="card-content">
+        <span class="card-title">Ben Affleck deja de ser Batman</span>
+          <p id="NewThree">
+            Ben Affleck dejará de ser el justiciero tras solo tres películas donde nunca fue el gran protagonista: 'Batman v Superman', 'Liga de la Justicia' y un simple cameo en 'Escuadrón Suicida'.
+          </p>
+        </div>
+       
+      </div>
+    </div>
+
+    <div class="col s12 m6 l4">
+      <div class="card z-depth-4" id="ThreeNew">
+        <div class="card-image">
+          <img src="resources/Alejandro/img/news/NewWolverine.jpg">
+        </div>
+        <div class="card-content">
+        <span class="card-title">Ben Affleck deja de ser Batman</span>
+          <p id="NewThree">
+            Ben Affleck dejará de ser el justiciero tras solo tres películas donde nunca fue el gran protagonista: 'Batman v Superman', 'Liga de la Justicia' y un simple cameo en 'Escuadrón Suicida'.
+          </p>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="col s12 m6 l4">
+      <div class="card z-depth-4" id="ThreeNew">
+        <div class="card-image">
+          <img src="resources/Alejandro/img/news/Deadpool2.jpg">
+        </div>
+        <div class="card-content">
+        <span class="card-title">Ben Affleck deja de ser Batman</span>
+          <p id="NewThree">
+            Ben Affleck dejará de ser el justiciero tras solo tres películas donde nunca fue el gran protagonista: 'Batman v Superman', 'Liga de la Justicia' y un simple cameo en 'Escuadrón Suicida'.
+          </p>
+        </div>
+       
+      </div>
+    </div>
+
+    <div class="col s12 m6 l4">
+      <div class="card z-depth-4" id="ThreeNew">
+        <div class="card-image">
+          <img src="resources/Alejandro/img/news/LokiandScarlet.jpg">
+        </div>
+        <div class="card-content">
+        <span class="card-title">Ben Affleck deja de ser Batman</span>
+          <p id="NewThree">
+            Ben Affleck dejará de ser el justiciero tras solo tres películas donde nunca fue el gran protagonista: 'Batman v Superman', 'Liga de la Justicia' y un simple cameo en 'Escuadrón Suicida'.
+          </p>
+        </div>
+        
       </div>
     </div>
 </div>
@@ -302,37 +378,85 @@ De una u otra manera, flashbacks o viajes en el tiempo, estas fotos han cobrado 
 
 <!--Calidad -->
   <div class="col s12" id="Test3">
-    
-          <div class="container" id="ContentCalidad">
-
-          <div class="row">
-            <div class="col s12 m10 offset-m1">
-              <div class="card z-depth-4">
-                <div class="card-content dark-text">
-                  <span class="card-title">¡Calidad es nuestro compromiso! <i class="material-icons" id="CalidadIcon"> check </i> </span>
-                  <p id="CalidadDescripcion">Nosotros estamos comprometidos a darte una buena calidad de contenido por lo tanto, 
-                  hemos decidido ser la primera tienda de peliculas online.</p>
-                  <p id="CalidadDescripcion">Nuestros productos cuenta con la mejor definición de contenido digital
-                  lo cual nosotros sabemos que los clientes desean y por eso nosotros como empresa nuestros productos
-                  seran exlusivamente Blu Ray, y nos compremetemos a tener que mas deseas para que tu las reserves y las puedas comprar inmediatamente. </p>
-                </div>
-                
+      <div class="container" id="ContentCalidad">
+        <div class="row">
+          <div class="col s12 m10 offset-m1">
+            <div class="card z-depth-4">
+              <div class="card-content dark-text">
+                <span class="card-title">¡Calidad es nuestro compromiso! <i class="material-icons" id="CalidadIcon"> check </i> </span>
+                <p id="CalidadDescripcion">Nosotros estamos comprometidos a darte una buena calidad de contenido por lo tanto, 
+                hemos decidido ser la primera tienda de peliculas online.</p>
+                <p id="CalidadDescripcion">Nuestros productos cuenta con la mejor definición de contenido digital
+                lo cual nosotros sabemos que los clientes desean y por eso nosotros como empresa nuestros productos
+                seran exlusivamente Blu Ray, y nos compremetemos a tener que mas deseas para que tu las reserves y las puedas comprar inmediatamente. </p>
               </div>
+              
             </div>
-          </div>         
-          
           </div>
-            
+        </div>         
+      </div>
   </div>
 
   </div>
 <!--Fin Calidad -->
-
-
-
 </div>
 <!--Fin Empresa -->
 
+<!--Fin afiliados!-->
+<div class="row">
+
+  <div class="card orange white-text">
+    <div class="card-content">
+      <div>
+        <span class="card-title center-align">Empresas afiliadas</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+  
+    <div class="col s12 m4">
+        <div class="card z-depth-4">
+          <div class="card-content white-text">
+            <div class="card-image">
+              <img src="resources/Alejandro/img/Pages/WalmartLogo.jpg" alt="">
+            </div>
+          </div>
+          <div class="card-action">
+            <span class="card-title">Walmart C.A </span>
+          </div>
+        </div>
+      </div>
+      
+    <div class="col s12 m4">
+        <div class="card z-depth-4">
+          <div class="card-content white-text">
+            <div class="card-image">
+              <img src="resources/Alejandro/img/Pages/SanbornsLogo.jpg" alt="" srcset="">
+            </div>
+          </div>
+          <div class="card-action">
+          <span class="card-title">Sanborns El Salvador</span>
+          </div>
+        </div>
+      </div>
+      
+    <div class="col s12 m4">
+        <div class="card z-depth-4">
+          <div class="card-content white-text">
+            <div class="card-image">
+              <img src="resources/Alejandro/img/Pages/Costco2.jpg" alt="" srcset="">
+            </div>
+          </div>
+          <div class="card-action">
+            <span class="card-title">Costco SuperMarket</span>
+          </div>
+        </div>
+      </div>
+
+  </div>
+</div>
+<!--Fin Afiliados -->
 <?php
 Public_page::footer();
 ?>
