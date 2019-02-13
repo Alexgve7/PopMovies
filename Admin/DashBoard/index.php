@@ -83,11 +83,14 @@
   </nav>
 
 <?php $count = (int)10; ?>
+  
   <!-- Dashboard -->
   <section class="section section-daily-stats center">
+    
     <div class="row">
+  
       <div class="col l3 m6 s12">
-        <div class="card-panel blue white-text center">
+        <div class="z-depth-4 card-panel blue white-text center">
           <i class="material-icons medium">show_chart</i>
           <h5>Compras Realizadas</h5>
           <h3 class="count">10</h3>
@@ -96,8 +99,9 @@
           </div>
         </div>
       </div>
+      
       <div class="col l3 m6 s12">
-        <div class="card-panel blue white-text center">
+        <div class="card-panel z-depth-4 blue white-text center">
           <i class="material-icons medium">person_add</i>
           <h5>New Users</h5>
           <h3 class="count">1203</h3>
@@ -106,8 +110,9 @@
           </div>
         </div>
       </div>
+
       <div class="col l3 m6 s12">
-        <div class="card-panel blue lighten-1 white-text center">
+        <div class="card-panel z-depth-4 blue lighten-1 white-text center">
           <i class="material-icons medium">assignment</i>
           <h5>New Posts</h5>
           <h3 class="count">2867</h3>
@@ -116,16 +121,18 @@
           </div>
         </div>
       </div>
+
       <div class="col l3 m6 s12">
-        <div class="card-panel red lighten-5 center">
-          <i class="material-icons medium">comment</i>
-          <h5>New Comments</h5>
-          <h3 class="count">6931</h3>
-          <div class="progress grey lighten-1">
-            <div class="determinate red lighten-1" style="width:50%;"></div>
+        <div class="card-panel z-depth-4 blue lighten-1 white-text center">
+          <i class="material-icons medium">assignment</i>
+          <h5>New Posts</h5>
+          <h3 class="count">2867</h3>
+          <div class="progress white">
+            <div class="determinate  red" style="width:80%;"></div>
           </div>
         </div>
       </div>
+      
     </div>
   </section>
 
