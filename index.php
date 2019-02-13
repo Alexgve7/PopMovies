@@ -44,15 +44,16 @@ Public_page::header();
 
 <!--Noticias -->
 <div class="container">
-<div class="row" id="TitleNews">
-    <div class="nav-wrapper center" id="Options">
-      <div class="col s18">
-        <a class="breadcrumb 10">PopMovies</a>
-        <a class="breadcrumb">Noticias</a>
+  <div class="row z-depth-4" id="TitleNews">
+      <div class="nav-wrapper" id="Options">
+        <div class="col s18">
+          <a class="breadcrumb 10">PopMovies</a>
+          <a class="breadcrumb">Noticias</a>
+        </div>
       </div>
-    </div>
+  </div>
 </div>
-</div>
+
 <div class="row z-depth-4" id="NewsBackground">
 
     <div class="col s12 m6 l4">
@@ -94,7 +95,8 @@ Public_page::header();
         <div class="card-content">
         <span class="card-title">!Misterio confirmado para Far From Home!</span>
           <p id="NewThree">
-            Ben Affleck dejará de ser el justiciero tras solo tres películas donde nunca fue el gran protagonista: 'Batman v Superman', 'Liga de la Justicia' y un simple cameo en 'Escuadrón Suicida'.
+            Misterio es confirmado como lista de los villanos de SpiderMan, 
+            ademas de los elementales que vimos en el trailer inicial podemos ver que misterio tiene un papel de heroe tambien ¿Como terminara?
           </p>
         </div>
        
@@ -107,9 +109,9 @@ Public_page::header();
           <img src="resources/Alejandro/img/news/Forky2.jpg">
         </div>
         <div class="card-content">
-        <span class="card-title">Ben Affleck deja de ser Batman</span>
+        <span class="card-title">Forky el nuevo personaje de Toy Story!</span>
           <p id="NewThree">
-            Ben Affleck dejará de ser el justiciero tras solo tres películas donde nunca fue el gran protagonista: 'Batman v Superman', 'Liga de la Justicia' y un simple cameo en 'Escuadrón Suicida'.
+           Forky un nuevo personaje que se unira a la familia de nuestros juguetes favoritos de disney, pero que importancia tendra este personaje?
           </p>
         </div>
        
@@ -122,9 +124,9 @@ Public_page::header();
           <img src="resources/Alejandro/img/news/DareDevil.jpg">
         </div>
         <div class="card-content">
-        <span class="card-title">Ben Affleck deja de ser Batman</span>
+        <span class="card-title">DareDevil para temporada 4!</span>
           <p id="NewThree">
-            Ben Affleck dejará de ser el justiciero tras solo tres películas donde nunca fue el gran protagonista: 'Batman v Superman', 'Liga de la Justicia' y un simple cameo en 'Escuadrón Suicida'.
+            Daredevil tras lanzar su reciente 3ra Temporada, se escuchan los rumores que puede volver a las pantallas de nuestros espectadores, pero esta vez con Diseney+.
           </p>
         </div>
        
@@ -139,7 +141,9 @@ Public_page::header();
         <div class="card-content">
         <span class="card-title">Ben Affleck deja de ser Batman</span>
           <p id="NewThree">
-            Ben Affleck dejará de ser el justiciero tras solo tres películas donde nunca fue el gran protagonista: 'Batman v Superman', 'Liga de la Justicia' y un simple cameo en 'Escuadrón Suicida'.
+            Ben Affleck dejará de ser el justiciero tras solo tres películas 
+            donde nunca fue el gran protagonista: 'Batman v Superman', 
+            'Liga de la Justicia' y un simple cameo en 'Escuadrón Suicida'.
           </p>
         </div>
        
@@ -152,9 +156,10 @@ Public_page::header();
           <img src="resources/Alejandro/img/news/NewWolverine.jpg">
         </div>
         <div class="card-content">
-        <span class="card-title">Ben Affleck deja de ser Batman</span>
+        <span class="card-title">¿Daniel Radcliffe para el nuevo lobezno?</span>
           <p id="NewThree">
-            Ben Affleck dejará de ser el justiciero tras solo tres películas donde nunca fue el gran protagonista: 'Batman v Superman', 'Liga de la Justicia' y un simple cameo en 'Escuadrón Suicida'.
+            Daniel Radcliffe, segun las entrevistas y revistas famosas de nueva york han publicado que Daniel es 
+            un nuevo candidato para Marvel como el nuevo lobezno y ponerlo en la gran pantalla.
           </p>
         </div>
         
@@ -167,9 +172,10 @@ Public_page::header();
           <img src="resources/Alejandro/img/news/Deadpool2.jpg">
         </div>
         <div class="card-content">
-        <span class="card-title">Ben Affleck deja de ser Batman</span>
+        <span class="card-title">DeadPool para el UCM</span>
           <p id="NewThree">
-            Ben Affleck dejará de ser el justiciero tras solo tres películas donde nunca fue el gran protagonista: 'Batman v Superman', 'Liga de la Justicia' y un simple cameo en 'Escuadrón Suicida'.
+           Marvel y disney estan hacen lo posible por comprar todos los personajes de FOX y lograr tener superheroes y poder
+           estar en el UCM entre ellos los 4 Fantasticos, los X Men y  DeadPool
           </p>
         </div>
        
@@ -182,9 +188,10 @@ Public_page::header();
           <img src="resources/Alejandro/img/news/LokiandScarlet.jpg">
         </div>
         <div class="card-content">
-        <span class="card-title">Ben Affleck deja de ser Batman</span>
+        <span class="card-title">Serie propia de Loki y la Bruja Escarlata.</span>
           <p id="NewThree">
-            Ben Affleck dejará de ser el justiciero tras solo tres películas donde nunca fue el gran protagonista: 'Batman v Superman', 'Liga de la Justicia' y un simple cameo en 'Escuadrón Suicida'.
+           Disney+ por lo visto quiere que loki y la bruja escarlata sean un poco reconocidos, 
+           no solo en pantalla grande si no conocer más a fondo de ellos dandoles una serie para cada uno.
           </p>
         </div>
         
@@ -193,7 +200,7 @@ Public_page::header();
 </div>
 <!--Estrenos -->
 <div class="row" id="TitleNews">
-    <div class="nav-wrapper" id="Options">
+    <div class="nav-wrapper z-depth-4" id="Options">
       <div class="col s18">
         <a class="breadcrumb">PopMovies</a>
         <a class="breadcrumb">Noticias</a>
@@ -226,7 +233,7 @@ Public_page::header();
         </div>
         <div class="card-content">
           <span class="card-title">End Game</span>  
-          <p>I am a very simple card.</p>
+          <p>Viajes en el tiempo, heroes caidos. Estamos en lo ultimo</p>
           <a href="public/EndGame.php">Ver Información</a>
         </div>
       </div>
@@ -239,7 +246,7 @@ Public_page::header();
         </div>
         <div class="card-content">
           <span class="card-title">SpiderMan Far From Home</span>  
-          <p>I am a very simple card.</p>
+          <p>Un viaje, grandes enemigos un solo objetivo.</p>
           <a href="public/SpiderManFarFromHome.php">Ver Trailer</a>
         </div>
       </div>
@@ -251,8 +258,8 @@ Public_page::header();
           <img src="resources/Alejandro/img/estrenos/Shazam.jpg">
         </div>
         <div class="card-content">
-          <span class="card-title">SpiderMan Far From Home</span>  
-          <p>I am a very simple card.</p>
+          <span class="card-title">Shazam</span>  
+          <p>Una nueva forma de vivir, un gran heroismo y gran responsabilidad.</p>
           <a href="#">Ver Trailer</a>
         </div>
       </div>
@@ -265,7 +272,7 @@ Public_page::header();
         </div>
         <div class="card-content">
           <span class="card-title">Hobbs and Shaw</span>  
-          <p>I am a very simple card.</p>
+          <p>Un enemigo mortal, una amistad de adrenalina.</p>
           <a href="public/HobbsandShaw.php">Ver Trailer</a>
         </div>
       </div>

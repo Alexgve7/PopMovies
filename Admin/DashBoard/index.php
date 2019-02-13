@@ -82,7 +82,7 @@
     </div>
   </nav>
 
-
+<?php $count = (int)10; ?>
   <!-- Dashboard -->
   <section class="section section-daily-stats center">
     <div class="row">
@@ -90,9 +90,9 @@
         <div class="card-panel blue white-text center">
           <i class="material-icons medium">show_chart</i>
           <h5>Compras Realizadas</h5>
-          <h3 class="count">114893</h3>
-          <div class="progress grey lighten-1">
-            <div class="determinate white" style="width:60%;"></div>
+          <h3 class="count">10</h3>
+          <div class="progress white lighten-1">
+            <div class="determinate red" style="width: 23%"></div>
           </div>
         </div>
       </div>
@@ -101,18 +101,18 @@
           <i class="material-icons medium">person_add</i>
           <h5>New Users</h5>
           <h3 class="count">1203</h3>
-          <div class="progress grey lighten-1">
+          <div class="progress white ">
             <div class="determinate red lighten-1" style="width:13%;"></div>
           </div>
         </div>
       </div>
       <div class="col l3 m6 s12">
-        <div class="card-panel red lighten-1 white-text center">
+        <div class="card-panel blue lighten-1 white-text center">
           <i class="material-icons medium">assignment</i>
           <h5>New Posts</h5>
           <h3 class="count">2867</h3>
-          <div class="progress grey lighten-1">
-            <div class="determinate white" style="width:80%;"></div>
+          <div class="progress white">
+            <div class="determinate  red" style="width:80%;"></div>
           </div>
         </div>
       </div>
@@ -354,18 +354,7 @@
 
 
   <!-- FAB -->
-  <div class="fixed-action-btn">
-    <a class="btn-floating btn-large red">
-      <i class="material-icons">add</i>
-    </a>
-    <ul>
-      <li>
-        <a href="#modal-announcment" class="modal-trigger btn-floating yellow darken-3">
-          <i class="material-icons">mode_edit</i>
-        </a>
-      </li>
-    </ul>
-  </div>
+  
 
 
   <!-- ANNOUCNMENT MODAL -->
