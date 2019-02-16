@@ -1,508 +1,195 @@
-<!DOCTYPE html>
-<html>
+<?php 
+require("../../core/api/db.php");
+$con = new Instance(); $data = $con->Get();
+require("../../core/Alejandro/helpers/admin_pages.php");
 
-<head>
-  <link href="../../resources/Alejandro/css/material_icons.css" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="../../resources/Alejandro/DashBoard/css/materialize.min.css" media="screen,projection" />
-  <link type="text/css" rel="stylesheet" href="css/main.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Webstats | Admin Page</title>
-  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-</head>
+$header = new AdminPage();
+$putFooter = $header->AdminHeader();
+?>
 
-
-<body class="grey lighten-3">
-
-  <!-- NAVIGATION -->
-  <nav class="blue darken-2">
-    <div class="container">
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo">WebStats</a>
-        <a href="#" data-activates="side-nav" class="button-collapse show-on-small left">
-          <i class="material-icons">menu</i>
-        </a>
-        <ul class="right hide-on-med-and-down">
-          <li class="active">
-            <a href="#">Dashboard</a>
-          </li>
-          <li>
-            <a href="#">Users</a>
-          </li>
-          <li>
-            <a href="#">Posts</a>
-          </li>
-          <li>
-            <a href="#">Comments</a>
-          </li>
-          <li>
-            <a href="#">Reports</a>
-          </li>
-          <a href="#" class="btn large white red-text">
-            <strong>LOG OUT</strong>
-          </a>
-        </ul>
-        <!-- SIDE NAV -->
-        <ul id="side-nav" class="side-nav">
-          <li>
-            <div class="user-view">
-              <div class="background">
-                <img src="img/user-background.jpeg" alt="Side navigation background">
-              </div>
-              <a href="#">
-                <img src="img/person2.jpg" alt="Admin avatar" class="circle">
-              </a>
-              <a href="#">
-                <span class="name white-text">John Doe</span>
-              </a>
-              <a href="#">
-                <span class="text white-text">Administrator</span>
-              </a>
-            </div>
-          </li>
-          <li>
-            <a href="#">Dashboard</a>
-          </li>
-          <li>
-            <a href="#">Users</a>
-          </li>
-          <li>
-            <a href="#">Posts</a>
-          </li>
-          <li>
-            <a href="#">Comments</a>
-          </li>
-          <li>
-            <a href="#">Reports</a>
-          </li>
-          <a href="#" class="btn large white red-text">
-            <strong>LOG OUT</strong>
-          </a>
-        </ul>
+<?php print $putFooter; ?>
+<div class="full-size">
+  <div class="row">
+    <div class="card  light-blue darken-1 white-text">
+      <div class="card-content">
+        <p>¡Bienvenido!<?php  
+        setlocale(LC_ALL,"es_ES");
+        echo strftime(" "."%A %d de %B del %Y");
+        ?></p>
       </div>
     </div>
-  </nav>
+  </div>
+</div>
 
-<?php $count = (int)10; ?>
-  
-  <!-- Dashboard -->
-  <section class="section section-daily-stats center">
-    
-    <div class="row">
-  
-      <div class="col l3 m6 s12">
-        <div class="z-depth-4 card-panel blue white-text center">
-          <i class="material-icons medium">show_chart</i>
-          <h5>Compras Realizadas</h5>
-          <h3 class="count">10</h3>
+<!--DashBoard -->
+<div class="full-size">
+
+  <div class="row grey lighten-3">
+    <div class="col s12 m3 ">
+      <div class="card z-depth-2">
+        <div class="card-content">
+          <span class="card-title center"> <i class="material-icons icon blue-text">show_chart</i> </span>
+        </div>
+        <div class="card-content">
+          <span class="card-title center">Cantidad de Peliculas</span>
+          <p class="center">10</p>
           <div class="progress white lighten-1">
-            <div class="determinate red" style="width: 23%"></div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col l3 m6 s12">
-        <div class="card-panel z-depth-4 blue white-text center">
-          <i class="material-icons medium">person_add</i>
-          <h5>New Users</h5>
-          <h3 class="count">1203</h3>
-          <div class="progress white ">
-            <div class="determinate red lighten-1" style="width:13%;"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col l3 m6 s12">
-        <div class="card-panel z-depth-4 blue lighten-1 white-text center">
-          <i class="material-icons medium">assignment</i>
-          <h5>New Posts</h5>
-          <h3 class="count">2867</h3>
-          <div class="progress white">
-            <div class="determinate  red" style="width:80%;"></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col l3 m6 s12">
-        <div class="card-panel z-depth-4 blue lighten-1 white-text center">
-          <i class="material-icons medium">assignment</i>
-          <h5>New Posts</h5>
-          <h3 class="count">2867</h3>
-          <div class="progress white">
-            <div class="determinate  red" style="width:80%;"></div>
-          </div>
-        </div>
-      </div>
-      
-    </div>
-  </section>
-
-
-  <!-- GRAPH FOR MONTHLY VISITORS AND PENDING POSTS -->
-  <section class="section section-visitors-posts">
-    <div class="row">
-      <!-- GRAPH -->
-      <div class="col l8 m6 s12">
-        <div class="card-panel">
-          <div id="usersChart" style="height:370px; width:100%;"></div>
-        </div>
-      </div>
-      <!-- PENDING POSTS -->
-      <div class="col l4 m6 s12">
-        <ul class="collection with-header pending-posts">
-          <li class="collection-header">
-            <h5>Posts Waiting For Approval</h5>
-          </li>
-          <li class="collection-item avatar">
-            <img src="img/person1.jpeg" alt="Avatar 1" class="circle">
-            <span class="title">Jane Doe</span>
-            <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem libero sunt non error animi quibusdam velit eos
-              ut soluta blanditiis, et eius minima repellat nostrum, in perferendis porro? Rerum, voluptate.</p>
-            <a href="#" class="view blue-text">View</a> |
-            <a href="#" class="approve green-text">Approve</a> |
-            <a href="#" class="deny red-text">Deny</a>
-          </li>
-          <li class="collection-item avatar">
-            <img src="img/person2.jpg" alt="Avatar 1" class="circle">
-            <span class="title">Alan Taylor</span>
-            <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem libero sunt non error animi quibusdam velit eos
-              ut soluta blanditiis, et eius minima repellat nostrum, in perferendis porro? Rerum, voluptate.</p>
-            <a href="#" class="view blue-text">View</a> |
-            <a href="#" class="approve green-text">Approve</a> |
-            <a href="#" class="deny red-text">Deny</a>
-          </li>
-          <li class="collection-item avatar">
-            <img src="img/person3.jpeg" alt="Avatar 1" class="circle">
-            <span class="title">Susan Doe</span>
-            <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem libero sunt non error animi quibusdam velit eos
-              ut soluta blanditiis, et eius minima repellat nostrum, in perferendis porro? Rerum, voluptate.</p>
-            <a href="#" class="view blue-text">View</a> |
-            <a href="#" class="approve green-text">Approve</a> |
-            <a href="#" class="deny red-text">Deny</a>
-          </li>
-          <li class="collection-item avatar">
-            <img src="img/person3.jpeg" alt="Avatar 1" class="circle">
-            <span class="title">Susan Doe</span>
-            <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem libero sunt non error animi quibusdam velit eos
-              ut soluta blanditiis, et eius minima repellat nostrum, in perferendis porro? Rerum, voluptate.</p>
-            <a href="#" class="view blue-text">View</a> |
-            <a href="#" class="approve green-text">Approve</a> |
-            <a href="#" class="deny red-text">Deny</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- REPORTED USERS AND REVENUE GRAPH -->
-  <section class="section section-reports-revenue">
-    <div class="row">
-      <!-- REPORTED USERS -->
-      <div class="col l4 m6 s12">
-        <ul class="collection with-header pending-posts">
-          <li class="collection-header">
-            <h5>Reported users</h5>
-          </li>
-          <li class="collection-item avatar">
-            <img src="img/person1.jpeg" alt="Avatar 1" class="circle">
-            <span class="title">Jane Doe</span>
-            <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem libero sunt non error animi quibusdam velit eos
-              ut soluta blanditiis, et eius minima repellat nostrum, in perferendis porro? Rerum, voluptate.</p>
-            <a href="#" class="view-report blue-text">View report</a> |
-            <a href="#" class="dismiss-report green-text">Dismiss</a> |
-            <a href="#" class="ban-user red-text">Ban</a>
-          </li>
-          <li class="collection-item avatar">
-            <img src="img/person2.jpg" alt="Avatar 1" class="circle">
-            <span class="title">Alan Taylor</span>
-            <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem libero sunt non error animi quibusdam velit eos
-              ut soluta blanditiis, et eius minima repellat nostrum, in perferendis porro? Rerum, voluptate.</p>
-            <a href="#" class="view-report blue-text">View report</a> |
-            <a href="#" class="dismiss-report green-text">Dismiss</a> |
-            <a href="#" class="ban-user red-text">Ban</a>
-          </li>
-          <li class="collection-item avatar">
-            <img src="img/person3.jpeg" alt="Avatar 1" class="circle">
-            <span class="title">Susan Doe</span>
-            <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem libero sunt non error animi quibusdam velit eos
-              ut soluta blanditiis, et eius minima repellat nostrum, in perferendis porro? Rerum, voluptate.</p>
-            <a href="#" class="view-report blue-text">View report</a> |
-            <a href="#" class="dismiss-report green-text">Dismiss</a> |
-            <a href="#" class="ban-user red-text">Ban</a>
-          </li>
-          <li class="collection-item avatar">
-            <img src="img/person3.jpeg" alt="Avatar 1" class="circle">
-            <span class="title">Susan Doe</span>
-            <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem libero sunt non error animi quibusdam velit eos
-              ut soluta blanditiis, et eius minima repellat nostrum, in perferendis porro? Rerum, voluptate.</p>
-            <a href="#" class="view-report blue-text">View report</a> |
-            <a href="#" class="dismiss-report green-text">Dismiss</a> |
-            <a href="#" class="ban-user red-text">Ban</a>
-          </li>
-        </ul>
-      </div>
-      <!-- REVENUE -->
-      <div class="col l8 m6 s12">
-        <div class="card-panel">
-          <div id="revenueChart" style="height:370px; width:100%;"></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- INBOX AND TODO LIST -->
-  <section class="section secion-inbox-todo">
-    <div class="row">
-      <div class="col l6 m6 s12">
-        <ul class="collection with-header inbox">
-          <li class="collection-header">
-            <h5>Inbox</h5>
-          </li>
-          <li class="collection-item avatar">
-            <img src="img/person1.jpeg" alt="Avatar 1" class="circle">
-            <span class="title">Jane Doe</span>
-            <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem libero sunt non error animi quibusdam velit eos
-              ut soluta blanditiis, et eius minima repellat nostrum, in perferendis porro? Rerum, voluptate.</p>
-            <a href="#" class="read-message blue-text">Read</a> |
-            <a href="#" class="delete-message red-text">Delete</a>
-          </li>
-          <li class="collection-item avatar">
-            <img src="img/person2.jpg" alt="Avatar 1" class="circle">
-            <span class="title">Alan Taylor</span>
-            <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem libero sunt non error animi quibusdam velit eos
-              ut soluta blanditiis, et eius minima repellat nostrum, in perferendis porro? Rerum, voluptate.</p>
-            <a href="#" class="read-message blue-text">Read</a> |
-            <a href="#" class="delete-message red-text">Delete</a>
-          </li>
-          <li class="collection-item avatar">
-            <img src="img/person3.jpeg" alt="Avatar 1" class="circle">
-            <span class="title">Susan Doe</span>
-            <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem libero sunt non error animi quibusdam velit eos
-              ut soluta blanditiis, et eius minima repellat nostrum, in perferendis porro? Rerum, voluptate.</p>
-            <a href="#" class="read-message blue-text">Read</a> |
-            <a href="#" class="delete-message red-text">Delete</a>
-          </li>
-          <li class="collection-item avatar">
-            <img src="img/person3.jpeg" alt="Avatar 1" class="circle">
-            <span class="title">Susan Doe</span>
-            <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem libero sunt non error animi quibusdam velit eos
-              ut soluta blanditiis, et eius minima repellat nostrum, in perferendis porro? Rerum, voluptate.</p>
-            <a href="#" class="read-message blue-text">Read</a> |
-            <a href="#" class="delete-message red-text">Delete</a>
-          </li>
-          <li class="collection-item avatar">
-            <img src="img/person3.jpeg" alt="Avatar 1" class="circle">
-            <span class="title">Susan Doe</span>
-            <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem libero sunt non error animi quibusdam velit eos
-              ut soluta blanditiis, et eius minima repellat nostrum, in perferendis porro? Rerum, voluptate.</p>
-            <a href="#" class="read-message blue-text">Read</a> |
-            <a href="#" class="delete-message red-text">Delete</a>
-          </li>
-        </ul>
-      </div>
-      <div class="col l6 m6 s12">
-        <div class="card">
-          <div class="card-content">
-            <span class="card-title">Todo List</span>
-            <form id="todo-form">
-              <div class="input-field">
-                <input type="text" id="todo" placeholder="Add Task...">
-              </div>
-            </form>
-            <ul class="collection todos">
-              <li class="collection-item">
-                <div>Todo One
-                  <a href="#!" class="secondary-content delete">
-                    <i class="material-icons red-text">close</i>
-                  </a>
-                </div>
-              </li>
-              <li class="collection-item">
-                <div>Todo Two
-                  <a href="#!" class="secondary-content delete">
-                    <i class="material-icons red-text">close</i>
-                  </a>
-                </div>
-              </li>
-              <li class="collection-item">
-                <div>Todo Three
-                  <a href="#!" class="secondary-content delete">
-                    <i class="material-icons red-text">close</i>
-                  </a>
-                </div>
-              </li>
-              <li class="collection-item">
-                <div>Todo Four
-                  <a href="#!" class="secondary-content delete">
-                    <i class="material-icons red-text">close</i>
-                  </a>
-                </div>
-              </li>
-              <li class="collection-item">
-                <div>Todo Five
-                  <a href="#!" class="secondary-content delete">
-                    <i class="material-icons red-text">close</i>
-                  </a>
-                </div>
-              </li>
-            </ul>
+            <div class="determinate red" style="width: 10%"></div>
           </div>
         </div>
       </div>
     </div>
-  </section>
 
-
-  <!-- FOOTER -->
-  <footer class="section red darken-2 white-text center">
-    <p>WebStats Copyright &copy; 2018</p>
-  </footer>
-
-
-  <!-- FAB -->
-  
-
-
-  <!-- ANNOUCNMENT MODAL -->
-  <div id="modal-announcment" class="modal">
-    <div class="modal-content">
-      <h4>Add Announcment</h4>
-      <form>
-        <div class="input-field">
-          <input type="text" id="title">
-          <label for="title">Title</label>
+    <div class="col s12 m3">
+      <div class="card z-depth-2">
+        <div class="card-content">
+        <span class="card-title center"> <i class="material-icons icon blue-text" id="">card_membership</i> </span>
         </div>
-        <div class="input-field">
-          <select>
-            <option value="" selected disabled>Select Option</option>
-            <option value="1">General announcment</option>
-            <option value="2">News</option>
-            <option value="3">Promotions</option>
-            <option value="4">Other</option>
-          </select>
-          <label>Category</label>
+        <div class="card-content">
+        <span class="card-title center">Cantidad de membresias</span>
+          <p class="center">3</p>
         </div>
-        <div class="input-field">
-          <textarea name="body" id="body" class="materialize-textarea"></textarea>
-          <label for="body"></label>
+      </div>
+    </div>
+
+    <div class="col s12 m3">
+      <div class="card z-depth-2">
+        <div class="card-content">
+        <span class="card-title center"> <i class="material-icons icon blue-text" id="">attach_money</i> </span>
         </div>
-      </form>
-      <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close btn yellow darken-3 black-text">Submit</a>
+        <div class="card-content">
+        <span class="card-title center">Compras realizadas</span>
+          <p class="center">40</p>
+          <div class="progress white lighten-1">
+            <div class="determinate red" style="width: 70%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m3">
+      <div class="card z-depth-2">
+        <div class="card-content">
+        <span class="card-title center"> <i class="material-icons icon blue-text" id="">shop</i> </span>
+        </div>
+        <div class="card-content">
+        <span class="card-title center">Nuevos productos</span>
+          <p class="center">20</p>
+          <div class="progress white lighten-1">
+            <div class="determinate red" style="width: 20%"></div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
-  <script type="text/javascript" src="../../resources/js/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="../../resources/Alejandro/js/materialize.min.js"></script>
-  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-  <script src="https://cdn.ckeditor.com/4.8.0/standard/ckeditor.js"></script>
-  <script src="js/charts.js"></script>
-  <script>
+</div>
+<div class="full-size">
+  <div class="row">
+    <div class="card">
+      <div class="col s12 m6">
+        <span class="card-title">Proveedores</span>
+        <div class="card">
+          <div class="card-content">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                    <th>Empresa</th>
+                    <th>Nombre</th>
+                    <th>Contacto</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Walmart</td>
+                  <td>Vladimir Orellana</td>
+                  <td>vladimir.orellana@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Costco</td>
+                  <td>Frederic Hosbau</td>
+                  <td>FredHosbau@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Sanborns</td>
+                  <td>Emilio Coreas</td>
+                  <td>EmilCoreas@gmail.com</td>
+                </tr>
+              </tbody>
+            
+              <div class="nav-wrapper">
+                <form>
+                  <div class="input-field">
+                    <input id="search" type="search" required placeholder="Filtrar...">
+                    <label for="" class="label-icon" for="search"> <i class="material-icons">search</i> </label>
+                    <i class="material-icons">close</i>
+                  </div>
+                </form>
+              </div>
 
-    // HIDE EVERYTHING ON OPEN
-    $(".section").hide();
-    setTimeout(() => {
-      $(document).ready(() => {
-
-        // SHOW HIDDEN SECTIONS
-        $(".section").fadeIn();
-
-        // PRELOADER
-       
-
-        // SIDE DRAWER
-        $(".button-collapse").sideNav();
-
-        // MODAL
-        $(".modal").modal();
-
-        // SELECT
-        $(".select").material_select();
-
-        // COUNTER - Animates the Daily Stats section
-        $(".count").each(function () {
-          $(this).prop("Counter", 0).animate({
-            Counter: $(this).text()
-          }, {
-              duration: 1000,
-              easing: "swing",
-              step: function (now) {
-                $(this).text(Math.ceil(now));
-              }
-            });
-        });
-
-        // PENDING POSTS
-        $(".view").click(function (e) {
-          Materialize.toast("Here is the comment", 3000);
-          e.preventDefault();
-        });
-
-        $(".approve").click(function (e) {
-          Materialize.toast("Comment Approved", 3000);
-          e.preventDefault();
-        });
-        $(".deny").click(function (e) {
-          Materialize.toast("Comment Denied", 3000);
-          e.preventDefault();
-        });
-
-        // USER REPORTS
-        $(".view-report").click(function (e) {
-          Materialize.toast("Here is the report", 3000);
-          e.preventDefault();
-        });
-
-        $(".dismiss-report").click(function (e) {
-          Materialize.toast("Report dismissed", 3000);
-          e.preventDefault();
-        });
-
-        $(".ban-user").click(function (e) {
-          Materialize.toast("User banned!", 3000);
-          e.preventDefault();
-        });
-
-        // INBOX
-        $(".read-message").click(function (e) {
-          Materialize.toast("Here is your message", 3000);
-          e.preventDefault();
-        });
-
-        $(".delete-message").click(function (e) {
-          Materialize.toast("Message deleted!", 3000);
-          e.preventDefault();
-        });
-
-        // TODO LIST
-        $("#todo-form").submit(function (e) {
-          const output = `
-          <li class="collection-item">
-                <div>${$("#todo").val()}
-                  <a href="#!" class="secondary-content delete">
-                    <i class="material-icons red-text">close</i>
-                  </a>
-                </div>
-              </li>`;
-          $(".todos").append(output);
-          Materialize.toast("Todo Added", 3000);
-          e.preventDefault();
-        });
-
-        // DELETE TODO ITEM
-        $(".todos").on("click", ".delete", function (e) {
-          $(this).parent().parent().remove();
-          Materialize.toast("Todo Removed", 3000);
-          e.preventDefault();
-        });
-
-        CKEDITOR.replace("body");
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <span class="card-title">Membresias</span>
+        <div class="card">
+          <div class="card-content">
+            <table class="responsive-table">
+              <thead>
+                <tr>
+                    <th>Membresia</th>
+                    <th>Beneficio</th>
+                    <th>Precio</th>
+                    <th>Personas</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Silver</td>
+                  <td>Orden con DUI</td>
+                  <td>$5</td>
+                  <td>1</td>
+                 </tr>
+                <tr>
+                  <td>Alan</td>
+                  <td>Orden por correo</td>
+                  <td>$10</td>
+                  <td>3</td>
+                   </tr>
+                <tr>
+                  <td>Jonathan</td>
+                  <td>Orden por correo y descuento</td>
+                  <td>$20.00</td>
+                  <td>5</td>
+                 </tr>
+              </tbody>
+              <div class="nav-wrapper">
+                <form>
+                  <div class="input-field">
+                    <input id="search" type="search" required placeholder="Filtrar...">
+                    <label for="" class="label-icon" for="search"> <i class="material-icons">search</i> </label>
+                    <i class="material-icons">close</i>
+                  </div>
+                </form>
+              </div>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="full-size">
+      
+    
+</div>
 
 
-      });
-    }, 1000);
+<script type="text/javascript" src="../../../resources/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="../../../resources/Alejandro/js/materialize.min.js"></script> 
 
-  </script>
+<script type="text/javascript" src="../../../resources/Alejandro/js/dashboard.js"></script>       
+
 </body>
+</html>

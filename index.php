@@ -465,6 +465,7 @@ Public_page::header();
   </div>
 </div>
 <!--Fin Afiliados -->
+
 <?php
 Public_page::footer();
 ?>
