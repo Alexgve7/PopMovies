@@ -1,4 +1,9 @@
-
+<?php 
+require("../../../core/api/db.php");
+$con = new Instance();
+$GetCon = $con->Get();
+$data = $GetCon->query("SELECT * FROM genders")->fetchAll();
+?>
 <!DOCTYPE html>
 <html lang="esp">
 <head>
@@ -56,38 +61,42 @@
             </div>
         </nav>
 
-        <div class="row">
-            <div class="col s12 m3">
-                <div class="card">
-                    <div class="card-content">
-                        <p>Generos</p>
-                        <div class="divider"></div>
-                        <div class="row">
-                          <form class="col s12">
-                            <div class="row">
-                              <div class="input-field col s10">
-                                <i class="material-icons prefix">filter_list</i>
-                                <input id="icon_prefix2" class="materialize-textarea dark-text" placeholder="Ingresa un genero">
-                              </div>
-                             </div>
-                              <ul class="collapsible" id="Collapse">
-                                <li>
-                                  <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
-                                   
-                                </li>
-                              </ul>
-                          </form>
-                        </div>
-                    </div>
+<div class="row">
+    <div class="col s12 m3">
+        <div class="card">
+            <div class="card-content">
+                <p>Generos</p>
+                <div class="divider"></div>
+                <div class="row">
+                  <form class="col s12">
+                    <div class="row">
+                      <div class="input-field col s10">
+                        <i class="material-icons prefix">filter_list</i>
+                        <input id="name" class="materialize-textarea dark-text" placeholder="Ingresa un genero" >
+                      </div>
+                      </div>
+                      <ul class="collapsible">
+                        <li>
+                          <div class="collapsible-header"><i class="material-icons"> keyboard_arrow_down </i>Ver</div>
+                          <?php  foreach($data as $row) { ?>
+                          <div class="collapsible-body"><span> <?php print $row["gender"]; ?> </span></div>
+                          <?php } ?>
+                        </li>
+                      </ul>
+                  </form>
                 </div>
+                <button class="waves-effect waves-light btn-small blue" id="button"><i class="material-icons left">add</i>Agregar</button>
+                <button class="waves-effect waves-light btn-small blue" id="GetGenders"><i class="material-icons left">add</i>Agregar</button>
+                <input type="text" id="get">     
             </div>
         </div>
-
+    </div>
+</div>
 
 <script type="text/javascript" src="../../../resources/js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="../../../resources/Alejandro/js/materialize.min.js"></script> 
 <script type="text/javascript" src="../../../resources/Alejandro/js/dashboard.js"></script>
-<script type="text/javascript" src="../../../core/Alejandro/controllers/IndexMovieController.js"></script>
+<script type="text/javascript" src="../../../core/Alejandro/controllers/IndexGendersController.js"></script>
 </body>
 </body>
 

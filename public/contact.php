@@ -19,8 +19,8 @@
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
             <li><a href="sass.html">Nosotros</a></li>
-            <li><a href="public/contact.php">Contactos</a></li>
-            <li><a href="collapsible.html">Catalogo</a></li>
+            <li><a href="/public/contact.php">Contactos</a></li>
+            <li><a href="/public/Products.php">Catalogo</a></li>
             <li><a href="mobile.html">Iniciar Sesión</a></li>
         </ul>
     </div>
@@ -69,7 +69,7 @@
                 </div>
               </div>
               <div class="card-action">
-                <a href="#">This is a link</a>
+                <a href="">Enviar Mensaje</a>
               </div>
             </div>
           </div>
@@ -97,6 +97,7 @@
     </div>
   </div>
 </div>
+
 
     <script type="text/javascript" src="../resources/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../resources/Alejandro/js/materialize.min.js"></script>

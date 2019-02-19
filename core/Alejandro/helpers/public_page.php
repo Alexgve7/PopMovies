@@ -25,7 +25,7 @@ class Public_page{
             <ul class="right hide-on-med-and-down">
                 <li><a href="sass.html">Nosotros</a></li>
                 <li><a href="public/contact.php">Contactos</a></li>
-                <li><a href="collapsible.html">Catalogo</a></li>
+                <li><a href="public/Products.php">Catalogo</a></li>
                 <li><a href="mobile.html">Iniciar Sesión</a></li>
             </ul>
             </div>

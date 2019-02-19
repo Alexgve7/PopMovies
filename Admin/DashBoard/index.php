@@ -1,6 +1,4 @@
 <?php 
-require("../../core/api/db.php");
-$con = new Instance(); $data = $con->Get();
 require("../../core/Alejandro/helpers/admin_pages.php");
 
 $header = new AdminPage();
