@@ -56,38 +56,60 @@
             </div>
         </nav>
 
-        <div class="row">
-            <div class="col s12 m3">
-                <div class="card">
-                    <div class="card-content">
-                        <p>Generos</p>
-                        <div class="divider"></div>
-                        <div class="row">
-                          <form class="col s12">
-                            <div class="row">
-                              <div class="input-field col s10">
-                                <i class="material-icons prefix">filter_list</i>
-                                <input id="icon_prefix2" class="materialize-textarea dark-text" placeholder="Ingresa un genero">
-                              </div>
-                             </div>
-                              <ul class="collapsible" id="Collapse">
-                                <li>
-                                  <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
-                                   
-                                </li>
-                              </ul>
-                          </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<div class="row">
+    <div class="card center">
+      <div class="card-content">
+            <span class="card-title center">¿Que acción desea Realizar?</span>
+      </div>
+    </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card">
+          <div class="card-content center">
+              <i class="large material-icons">movie</i>
+              <div class="card-content center">
+                <a href="" class="btn blue">Registrar Pelicula</a>
+              </div>
+          </div>
         </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card">
+          <div class="card-content center">
+              <i class="large material-icons">ballot</i>
+              <div class="card-content center">
+                <a href="" class="btn blue">Visualizar Peliculas</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card">
+          <div class="card-content center">
+              <i class="large material-icons">search</i>
+              <div class="card-content center">
+                <a href="" class="btn blue">Busqueda</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
 
 
 <script type="text/javascript" src="../../../resources/js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="../../../resources/Alejandro/js/materialize.min.js"></script> 
 <script type="text/javascript" src="../../../resources/Alejandro/js/dashboard.js"></script>
-<script type="text/javascript" src="../../../core/Alejandro/controllers/IndexMovieController.js"></script>
 </body>
 </body>
 

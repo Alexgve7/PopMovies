@@ -19,7 +19,7 @@ class Gender{
           $this->gendername,
         ]);
         
-        echo "New record created successfully";
+        print "New record created successfully";
       } 
       catch (\Throwable $th) {
         //throw $th;
