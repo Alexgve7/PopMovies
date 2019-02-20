@@ -1,0 +1,29 @@
+    html,
+    body,
+    header,
+    .carousel {
+      height: 60vh;
+    }
+
+    @media (max-width: 740px) {
+      html,
+      body,
+      header,
+      .carousel {
+        height: 100vh;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      html,
+      body,
+      header,
+      .carousel {
+        height: 100vh;
+      }
+    }
+
+body{
+  /*background: rgb(255,244,223);*/
+  background-image: url("../img/PicsArt_02-01-12.07.10.jpg");
+}
