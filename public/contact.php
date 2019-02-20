@@ -10,7 +10,7 @@
             <!--Import materialize.css-->
             <link type="text/css" rel="stylesheet" href="../resources/Alejandro/css/materialize.min.css"  media="screen,projection"/>
             <link type="text/css" rel="stylesheet" href="../resources/Alejandro/css/home.css"  media="screen,projection"/>
-
+            <link rel="icon" href="../resources/Alejandro/img/Logo.ico">
 </head>
 <body>
 <nav class="m-5" id="NavBar">

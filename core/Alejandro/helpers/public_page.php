@@ -15,6 +15,7 @@ class Public_page{
             <link type="text/css" rel="stylesheet" href="resources/Alejandro/css/materialize.min.css"  media="screen,projection"/>
             <link type="text/css" rel="stylesheet" href="resources/Alejandro/css/home.css"  media="screen,projection"/>
             <title>Pop Movies</title>
+            <link rel="icon" href="resources/Alejandro/img/Logo.ico">
         </head>
         <body>
        
