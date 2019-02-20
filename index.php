@@ -33,6 +33,7 @@ Public_page::header();
           <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
         </div>
       </li>
+      
       <li>
         <img src="resources/Alejandro/img/slider/ToyStory.png"> <!-- random image -->
         <div class="caption center-align">
@@ -464,6 +465,7 @@ Public_page::header();
   </div>
 </div>
 <!--Fin Afiliados -->
+
 <?php
 Public_page::footer();
 ?>

@@ -15,6 +15,7 @@ class Public_page{
             <link type="text/css" rel="stylesheet" href="resources/Alejandro/css/materialize.min.css"  media="screen,projection"/>
             <link type="text/css" rel="stylesheet" href="resources/Alejandro/css/home.css"  media="screen,projection"/>
             <title>Pop Movies</title>
+            <link rel="icon" href="resources/Alejandro/img/Logo.ico">
         </head>
         <body>
        
@@ -25,7 +26,7 @@ class Public_page{
             <ul class="right hide-on-med-and-down">
                 <li><a href="sass.html">Nosotros</a></li>
                 <li><a href="public/contact.php">Contactos</a></li>
-                <li><a href="collapsible.html">Catalogo</a></li>
+                <li><a href="public/Products.php">Catalogo</a></li>
                 <li><a href="mobile.html">Iniciar Sesión</a></li>
             </ul>
             </div>

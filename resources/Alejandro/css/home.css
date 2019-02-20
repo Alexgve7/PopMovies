@@ -137,4 +137,8 @@ font-size: 1.3rem;
 #InformationNav{
     height: 3rem;
 }
-
+#HappyClients{
+    
+    height: 20rem;
+    background-repeat: no-repeat;
+}
