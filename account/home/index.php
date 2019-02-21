@@ -1,5 +1,5 @@
 <?php
-include "core/tab.php";
+include "../../resources/Gaby/private_area/inside/core/tab.php";
 tab::main();
 ?>
 
@@ -21,7 +21,7 @@ tab::main();
       <!--First slide-->
       <div class="carousel-item active">
         <div class="view">
-        <img src="img/O1.jpg" class="card-img-top" alt="">
+        <img src="../../resources/Gaby/private_area/inside/img/O1.jpg" class="card-img-top" alt="">
 
           <!-- Mask & flexbox options-->
           <div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
@@ -49,7 +49,7 @@ tab::main();
       <!--Second slide-->
       <div class="carousel-item">
         <div class="view">
-        <img src="img/O2.jpg" class="card-img-top" alt="">
+        <img src="../../resources/Gaby/private_area/inside/img/O2.jpg" class="card-img-top" alt="">
 
           <!-- Mask & flexbox options-->
           <div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
@@ -80,7 +80,7 @@ tab::main();
       <!--Third slide-->
       <div class="carousel-item">
         <div class="view">
-        <img src="img/O3.jpg" class="card-img-top" alt="">
+        <img src="../../resources/Gaby/private_area/inside/img/O3.jpg" class="card-img-top" alt="">
 
           <!-- Mask & flexbox options-->
           <div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
@@ -111,7 +111,7 @@ tab::main();
       <!--Fourth slide-->
       <div class="carousel-item">
         <div class="view">
-        <img src="img/O4.jpg" class="card-img-top" alt="">
+        <img src="../../resources/Gaby/private_area/inside/img/O4.jpg" class="card-img-top" alt="">
 
           <!-- Mask & flexbox options-->
           <div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
@@ -220,7 +220,7 @@ tab::main();
 
               <!--Card image-->
               <div class="view overlay">
-                <img src="img/Películas/1.jpg" class="card-img-top" alt="">
+                <img src="../../resources/Gaby/private_area/inside/img/Películas/1.jpg" class="card-img-top" alt="">
                 <a>
                   <div class="mask rgba-white-slight"></div>
                 </a>
@@ -245,7 +245,7 @@ tab::main();
                 <h4 class="font-weight-bold blue-text">
                   <strong>120$</strong>
                 </h4>
-					<a href="hogwarts_view.php" target="_blank" class="btn btn-primary btn-md">VER MÁS
+					          <a href="movies/movie-details/HarryPotterPiedraFilosofal.php" target="_blank" class="btn btn-primary btn-md">VER MÁS
                     </a>
               </div>
               <!--Card content-->
@@ -264,7 +264,7 @@ tab::main();
 
               <!--Card image-->
               <div class="view overlay">
-                <img src="img/Películas/2.jpg" class="card-img-top" alt="">
+                <img src="../../resources/Gaby/private_area/inside/img/Películas/2.jpg" class="card-img-top" alt="">
                 <a>
                   <div class="mask rgba-white-slight"></div>
                 </a>
@@ -305,7 +305,7 @@ tab::main();
 
               <!--Card image-->
               <div class="view overlay">
-                <img src="img/Películas/8.jpg" class="card-img-top" alt="">
+                <img src="../../resources/Gaby/private_area/inside/img/Películas/8.jpg" class="card-img-top" alt="">
                 <a>
                   <div class="mask rgba-white-slight"></div>
                 </a>
@@ -348,7 +348,7 @@ tab::main();
 
               <!--Card image-->
               <div class="view overlay">
-                <img src="img/Películas/4.jpg" class="card-img-top" alt="">
+                <img src="../../resources/Gaby/private_area/inside/img/Películas/4.jpg" class="card-img-top" alt="">
                 <a>
                   <div class="mask rgba-white-slight"></div>
                 </a>
@@ -480,13 +480,13 @@ tab::main();
 
   <!-- SCRIPTS -->
   <!-- JQuery -->
-  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="../../resources/Gaby/private_area/inside/js/jquery-3.3.1.min.js"></script>
   <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="../../resources/Gaby/private_area/inside/js/popper.min.js"></script>
   <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../../resources/Gaby/private_area/inside/js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript" src="../../resources/Gaby/private_area/inside/js/mdb.min.js"></script>
   <!-- Initializations -->
   <script type="text/javascript">
     // Animations initialization

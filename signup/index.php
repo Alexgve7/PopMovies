@@ -5,15 +5,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Registrarse</title>
+  <title>PopMovies | Registrate</title>
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="../all.css">
+  <link rel="stylesheet" href="../resources/Gaby/private_area/inside/css/all.css">
   <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="../resources/Gaby/private_area/users/css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
-  <link href="css/mdb.min.css" rel="stylesheet">
+  <link href="../resources/Gaby/private_area/users/css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
-  <link href="css/style.min.css" rel="stylesheet">
+  <link href="../resources/Gaby/private_area/users/css/style.min.css" rel="stylesheet">
+  <link rel="icon" href="../resources/Alejandro/img/Logo.ico">
 </head>
 
 <body class="grey lighten-3">
@@ -39,11 +40,11 @@
         <!-- Left -->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Registro
+            <a class="nav-link" href="/">Inicio
               <span class="sr-only">(current)</span>
             </a>
           </li>
-          <li class="nav-item">
+          <!--<li class="nav-item">
             <a class="nav-link" href="#" target="_blank">Acerca de</a>
           </li>
           <li class="nav-item">
@@ -51,15 +52,15 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Preguntas frecuentes</a>
-          </li>
+          </li> -->
         </ul>
 
         <!-- Right -->
         <ul class="navbar-nav nav-flex-icons">
           <li class="nav-item">
-            <a href="form.php" class="nav-link"
+            <a href="/login" class="nav-link"
               target="_blank">
-              <i class="#"></i>Iniciar Sesión
+              iniciar Sesión
             </a>
           </li>
         </ul>
@@ -231,13 +232,13 @@
 
   <!-- SCRIPTS -->
   <!-- JQuery -->
-  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="../resources/Gaby/private_area/users/js/jquery-3.3.1.min.js"></script>
   <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="../resources/Gaby/private_area/users/js/popper.min.js"></script>
   <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../resources/Gaby/private_area/users/js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript" src="../resources/Gaby/private_area/users/js/mdb.min.js"></script>
   <!-- Initializations -->
   <script type="text/javascript">
     // Animations initialization

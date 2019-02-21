@@ -1,5 +1,5 @@
 <?php 
-require("../../../core/api/db.php");
+require("../../../../core/api/db.php");
 $con = new Instance();
 $GetCon = $con->Get();
 $data = $GetCon->query("SELECT * FROM genders")->fetchAll();
@@ -12,10 +12,10 @@ $data = $GetCon->query("SELECT * FROM genders")->fetchAll();
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Peliculas</title>
      <!--Import Google Icon Font-->
-        <link href="../../../resources/Alejandro/css/material_icons.css" rel="stylesheet">
+        <link href="../../../../resources/Alejandro/css/material_icons.css" rel="stylesheet">
       <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="../../../resources/Alejandro/css/materialize.min.css"  media="screen,projection"/>
-      <link type="text/css" rel="stylesheet" href="../../../resources/Alejandro/css/dashboard.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="../../../../resources/Alejandro/css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="../../../../resources/Alejandro/css/dashboard.css"  media="screen,projection"/>
       
 </head>
 <body>
@@ -34,9 +34,9 @@ $data = $GetCon->query("SELECT * FROM genders")->fetchAll();
               <a href="#email"><span class="dark-text email">jdandturk@gmail.com</span></a>
             </div>
           </li>
-          <li><a href="/Admin/DashBoard/"><i class="material-icons blue-text">dashboard</i>Dashboard</a></li>
-          <li><a href="/Admin/DashBoard/Movies/"><i class="material-icons blue-text">movies</i>Peliculas</a></li>
-          <li><a href="/Admin/DashBoard/Genders/"><i class="material-icons blue-text">insert_emoticon</i>Generos</a></li>
+          <li><a href="/private/Admin/DashBoard/"><i class="material-icons blue-text">dashboard</i>Dashboard</a></li>
+          <li><a href="/private/Admin/DashBoard/Movies/"><i class="material-icons blue-text">movies</i>Peliculas</a></li>
+          <li><a href="/private/Admin/DashBoard/Genders/"><i class="material-icons blue-text">insert_emoticon</i>Generos</a></li>
           <li><a href="#!"><i class="material-icons blue-text">beenhere</i>Proveedores</a></li>
           
           <li><div class="divider"></div></li>
@@ -93,10 +93,10 @@ $data = $GetCon->query("SELECT * FROM genders")->fetchAll();
     </div>
 </div>
 
-<script type="text/javascript" src="../../../resources/js/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="../../../resources/Alejandro/js/materialize.min.js"></script> 
-<script type="text/javascript" src="../../../resources/Alejandro/js/dashboard.js"></script>
-<script type="text/javascript" src="../../../core/Alejandro/controllers/IndexGendersController.js"></script>
+<script type="text/javascript" src="../../../../resources/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="../../../../resources/Alejandro/js/materialize.min.js"></script> 
+<script type="text/javascript" src="../../../../resources/Alejandro/js/dashboard.js"></script>
+<script type="text/javascript" src="../../../../core/Alejandro/controllers/IndexGendersController.js"></script>
 </body>
 </body>
 

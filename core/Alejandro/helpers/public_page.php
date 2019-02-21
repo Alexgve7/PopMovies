@@ -27,7 +27,8 @@ class Public_page{
                 <li><a href="sass.html">Nosotros</a></li>
                 <li><a href="public/contact.php">Contactos</a></li>
                 <li><a href="public/Products.php">Catalogo</a></li>
-                <li><a href="mobile.html">Iniciar Sesión</a></li>
+                <li><a href="/login/">Registrate</a></li>
+                <li><a href="/login/">Iniciar Sesión</a></li>
             </ul>
             </div>
         </nav>

@@ -7,12 +7,13 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Iniciar Sesión</title>
   <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="../resources/Gaby/private_area/users/css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
-  <link href="css/mdb.min.css" rel="stylesheet">
+  <link href="../resources/Gaby/private_area/users/css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
-  <link href="css/style.min.css" rel="stylesheet">
-  <link href="css/Login.css" rel="stylesheet">
+  <link href="../resources/Gaby/private_area/users/css/style.min.css" rel="stylesheet">
+  <link href="../resources/Gaby/private_area/users/css/Login.css" rel="stylesheet">
+  <link rel="icon" href="../resources/Alejandro/img/Logo.ico">
 </head>
 
 <body>
@@ -37,7 +38,7 @@
 
         <!-- Left -->
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
+         <!-- <li class="nav-item">
             <a class="nav-link" href="#">Registro</a>
           </li>
           <li class="nav-item">
@@ -47,6 +48,7 @@
             <a class="nav-link" href="#">Contáctanos
               <span class="sr-only">(current)</span>
           </li>
+          -->
         </ul>
 
         <!-- Right -->
@@ -67,7 +69,7 @@
 
   <!-- Full Page Intro -->
   <div class="view full-page-intro">
-    <img src="img/BG.jpg" class="card-img-top" alt="">
+    <img src="../resources/Gaby/private_area/users/img/BG.jpg" class="card-img-top" alt="">
 
     <!-- Mask & flexbox options-->
     <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
@@ -125,12 +127,12 @@
                   </div>
 
                   <div class="text-center">
-                    <button class="btn btn-yellow">Entrar</button>
+                    <a href="../account/home/" class="btn btn-yellow">Entrar</a>
                    
                     <!--<fieldset class="form-check">
                       <input type="checkbox" class="form-check-input" id="checkbox1">-->
-                      <a class="nav-link" href="#">Registrarme</a>
-                      <a class="nav-link" href="#">Olvidé mi contraseña</a>
+                      <a class="nav-link" href="/signup/">Registrarme</a>
+                      <a class="nav-link" href="/login/forget-password.php">Olvidé mi contraseña</a>
                     <!--</fieldset>-->
                   </div>
 
@@ -172,13 +174,13 @@
 
   <!-- SCRIPTS -->
   <!-- JQuery -->
-  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="../resources/Gaby/private_area/users/js/jquery-3.3.1.min.js"></script>
   <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="../resources/Gaby/private_area/users/js/popper.min.js"></script>
   <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../resources/Gaby/private_area/users/js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript" src="../resources/Gaby/private_area/users/js/mdb.min.js"></script>
   <!-- Initializations -->
   <script type="text/javascript">
     // Animations initialization

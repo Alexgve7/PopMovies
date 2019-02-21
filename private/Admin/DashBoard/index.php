@@ -1,5 +1,5 @@
 <?php 
-require("../../core/Alejandro/helpers/admin_pages.php");
+require("../../../core/Alejandro/helpers/admin_pages.php");
 
 $header = new AdminPage();
 $putFooter = $header->AdminHeader();

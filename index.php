@@ -4,6 +4,7 @@ include("core/api/db.php");
 Public_page::header();
 ?>
 
+<!--Menu vertical -->
   <ul class="sidenav" id="mobile-demo">
     <li><a href="sass.html">Nosotros</a></li>
     <li><a href="badges.html">Contactanos</a></li>
@@ -11,12 +12,12 @@ Public_page::header();
     <li><a href="mobile.html">Iniciar Sesión</a></li>
   </ul>
 
+<!--Slider -->
   <div class="slider">
     <ul class="slides">
       <li>
         <img src="resources/Alejandro/img/slider/CapMarvel.jpg"> <!-- random image -->
         <div class="caption center-align">
-          
         </div>
       </li>
       <li>

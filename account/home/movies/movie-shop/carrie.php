@@ -1,5 +1,5 @@
 <?php
-include "core/tab.php";
+include "../../../../resources/Gaby/private_area/inside/core/tab.php";
 tab::views();
 ?>
 
@@ -13,7 +13,7 @@ tab::views();
         <!--Grid column-->
         <div class="col-md-6 mb-4">
 
-          <img src="img/Compras/Carrie2.jpg" class="img-fluid" alt="">
+          <img src="../../../../resources/Gaby/private_area/inside/img/Compras/Carrie2.jpg" class="img-fluid" alt="">
 
         </div>
         <!--Grid column-->

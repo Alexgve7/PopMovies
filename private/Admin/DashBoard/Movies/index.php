@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Peliculas</title>
-     <!--Import Google Icon Font-->
-        <link href="../../../resources/Alejandro/css/material_icons.css" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="../../../resources/Alejandro/css/materialize.min.css"  media="screen,projection"/>
-      <link type="text/css" rel="stylesheet" href="../../../resources/Alejandro/css/dashboard.css"  media="screen,projection"/>
+    <!--Import Google Icon Font-->
+      <link href="../../../../resources/Alejandro/css/material_icons.css" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../../../../resources/Alejandro/css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="../../../../resources/Alejandro/css/dashboard.css"  media="screen,projection"/>
       
 </head>
 <body>
@@ -29,9 +29,9 @@
               <a href="#email"><span class="dark-text email">jdandturk@gmail.com</span></a>
             </div>
           </li>
-          <li><a href="/Admin/DashBoard/"><i class="material-icons blue-text">dashboard</i>Dashboard</a></li>
-          <li><a href="/Admin/DashBoard/Movies/"><i class="material-icons blue-text">movies</i>Peliculas</a></li>
-          <li><a href="/Admin/DashBoard/Genders/"><i class="material-icons blue-text">insert_emoticon</i>Generos</a></li>
+          <li><a href="/private/Admin/DashBoard/"><i class="material-icons blue-text">dashboard</i>Dashboard</a></li>
+          <li><a href="/private/Admin/DashBoard/Movies/"><i class="material-icons blue-text">movies</i>Peliculas</a></li>
+          <li><a href="/private/Admin/DashBoard/Genders/"><i class="material-icons blue-text">insert_emoticon</i>Generos</a></li>
           <li><a href="#!"><i class="material-icons blue-text">beenhere</i>Proveedores</a></li>
           
           <li><div class="divider"></div></li>
@@ -89,7 +89,7 @@
           </div>
         </div>
       </div>
-    </div> 
+    </div>
     <div class="col s12 m4">
       <div class="card">
         <div class="card">
@@ -107,9 +107,9 @@
 </div>
 
 
-<script type="text/javascript" src="../../../resources/js/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="../../../resources/Alejandro/js/materialize.min.js"></script> 
-<script type="text/javascript" src="../../../resources/Alejandro/js/dashboard.js"></script>
+<script type="text/javascript" src="../../../../resources/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="../../../../resources/Alejandro/js/materialize.min.js"></script> 
+<script type="text/javascript" src="../../../../resources/Alejandro/js/dashboard.js"></script>
 </body>
 </body>
 

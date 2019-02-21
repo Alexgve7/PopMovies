@@ -9,17 +9,18 @@ class tab{
 		  <meta charset="utf-8">
 		  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		  <meta http-equiv="x-ua-compatible" content="ie=edge">
-		  <title>Catálogo</title>
+			<title>Home</title>
+			<link rel="icon" href="../../../resources/Alejandro/img/Logo.ico">
 		  <!-- Font Awesome - Social Icons -->
-		  <link href="css/all.css" rel="stylesheet">
+		  <link href="../../resources/Gaby/private_area/inside/css/all.css" rel="stylesheet">
 		  <!-- Navbar Style -->
-		  <link href="css/navsty.css" rel="stylesheet">
+		  <link href="../../resources/Gaby/private_area/inside/css/navsty.css" rel="stylesheet">
 		  <!-- Design -->
-		  <link href="css/design.css" rel="stylesheet">
+		  <link href="../../resources/Gaby/private_area/inside/css/design.css" rel="stylesheet">
 		  <!-- Transparent field-->
-		  <link href="css/field.css" rel="stylesheet">
+		  <link href="../../resources/Gaby/private_area/inside/css/field.css" rel="stylesheet">
 		  <!-- BG -->
-		  <link rel="stylesheet" href="css/BG.css">
+		  <link rel="stylesheet" href="../../resources/Gaby/private_area/inside/css/BG.css">
 		</head>
 
 		<body>
@@ -44,20 +45,7 @@ class tab{
 
 		        <!-- Left -->
 		        <ul class="navbar-nav mr-auto">
-		          <li class="nav-item active">
-		            <a class="nav-link" href="#">Catálogo
-		              <span class="sr-only">(current)</span>
-		            </a>
-		          </li>
-		          <li class="nav-item">
-		            <a class="nav-link" href="#" target="_blank">Acerca de</a>
-		          </li>
-		          <li class="nav-item">
-		            <a class="nav-link" href="#" target="_blank">Contáctanos</a>
-		          </li>
-		          <li class="nav-item">
-		            <a class="nav-link" href="#" target="_blank">Preguntas frecuentes</a>
-		          </li>
+		          
 		        </ul>
 
 		        <!-- Right -->
@@ -89,13 +77,13 @@ class tab{
 			  <meta http-equiv="x-ua-compatible" content="ie=edge">
 			  <title>Confirmar compra</title>
 			  <!-- Font Awesome - Social Icons -->
-			  <link href="css/all.css" rel="stylesheet">
+			  <link href="../../../../resources/Gaby/private_area/inside/css/all.css" rel="stylesheet">
 			  <!-- Navbar Style -->
-			  <link href="css/navsty.css" rel="stylesheet">
+			  <link href="../../../../resources/Gaby/private_area/inside/css/navsty.css" rel="stylesheet">
 			  <!-- Design -->
-			  <link href="css/design.css" rel="stylesheet">
+			  <link href="../../../../resources/Gaby/private_area/inside/css/design.css" rel="stylesheet">
 			  <!-- Transparent field-->
-			  <link href="css/field.css" rel="stylesheet">
+			  <link href="../../../../resources/Gaby/private_area/inside/css/field.css" rel="stylesheet">
 			</head>
 
 			<body>
@@ -121,12 +109,12 @@ class tab{
 			        <!-- Left -->
 			        <ul class="navbar-nav mr-auto">
 			          <li class="nav-item active">
-			            <a class="nav-link" href="home-page.php">Catálogo
+			            <a class="nav-link" href="/account/home/">Inicio
 			              <span class="sr-only">(current)</span>
 			            </a>
 			          </li>
 			          <li class="nav-item">
-			            <a class="nav-link" href="#" target="_blank">Acerca de</a>
+			            <a class="nav-link" href="" target="_blank">Acerca de</a>
 			          </li>
 			          <li class="nav-item">
 			            <a class="nav-link" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank">Contáctanos</a>
