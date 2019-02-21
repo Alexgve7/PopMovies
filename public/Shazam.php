@@ -9,20 +9,36 @@
      <link href="../resources/Candray/css/material_icons.css" rel="stylesheet">
             <!--Import materialize.css-->
             <link type="text/css" rel="stylesheet" href="../resources/Candray/css/materialize.min.css"  media="screen,projection"/>
+            <link type="text/css" rel="stylesheet" href="../resources/Alejandro/css/home.css"  media="screen,projection"/>
 </head>
 <body>
+<!--Menu Barra -->
 <nav class="m-5" id="NavBar">
     <div class="nav-wrapper">
         <a href="#!" class="brand-logo justify"> PopMovies </a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">Javascript</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
+        <li><a href="/">Inicio</a></li>
+            <li><a href="/public/We.php">Nosotros</a></li>
+            <li><a href="/public/contact.php">Contactos</a></li>
+            <li><a href="/public/Products.php">Catalogo</a></li>
+            <li><a href="/signup/">Registrate</a></li>
+            <li><a href="/login/">Iniciar Sesión</a></li>
         </ul>
     </div>
 </nav>
+<!-- Fin menu barra -->
+<!-- Menu Vertical -->
+<ul class="sidenav" id="mobile-demo">
+    
+    <li><a href="/public/We.php">Nosotros</a></li>
+    <li><a href="/public/contact.php">Contactos</a></li>
+    <li><a href="/public/Products.php">Catalogo</a></li>
+    <li><a href="/signup/">Registrate</a></li>
+    <li><a href="/login/">Iniciar Sesión</a></li>
+</ul>
+<!--Fin Menu Vertical -->
+
 <div class="container">
     
     <div class="row Z-depht-4 center-align">

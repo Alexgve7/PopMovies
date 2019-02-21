@@ -12,20 +12,34 @@
     <link rel="icon" href="../resources/Alejandro/img/Logo.ico">
 </head>
 <body>
+
 <!-- Barra de Menu -->
 <nav class="m-5" id="NavBar">
     <div class="nav-wrapper">
-        <a href="#!" class="brand-logo justify"> PopMovies </a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <a href="/" class="brand-logo justify"> PopMovies </a>
+        <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html">Nosotros</a></li>
+        <li><a href="/">Inicio</a></li>
+            <li><a href="/public/We.php">Nosotros</a></li>
             <li><a href="/public/contact.php">Contactos</a></li>
             <li><a href="/public/Products.php">Catalogo</a></li>
-            <li><a href="mobile.html">Iniciar Sesión</a></li>
+            <li><a href="/signup/">Registrate</a></li>
+            <li><a href="/login/">Iniciar Sesión</a></li>
         </ul>
     </div>
 </nav>
+<!--Fin barra de menu -->
 
+    <!-- Menu Vertical -->
+    <ul class="sidenav" id="mobile-demo">
+        
+        <li><a href="/public/We.php">Nosotros</a></li>
+        <li><a href="/public/contact.php">Contactos</a></li>
+        <li><a href="/public/Products.php">Catalogo</a></li>
+        <li><a href="/signup/">Registrate</a></li>
+        <li><a href="/login/">Iniciar Sesión</a></li>
+    </ul>
+    <!--Fin Menu Vertical -->
 <!--Contenido -->
 <div class="container orange z-depth-4" > 
         <div class="card orange darken-1 white-text">
@@ -166,6 +180,7 @@
     
 <script type="text/javascript" src="../resources/js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="../resources/Alejandro/js/materialize.min.js"></script>
-<script type="text/javascript" src="../resources/Alejandro/js/pages/pages.js"></script>
+<script type="text/javascript" src="../resources/Alejandro/js/Sidenavpublic.js"></script>
+
 </body>
 </html>

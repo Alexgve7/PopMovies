@@ -165,46 +165,10 @@
         <div class="col-md-4 mb-4">
 
           <!-- Heading -->
-          <h4 class="d-flex justify-content-between align-items-center mb-3">
-            <span class="text-muted">Promociones</span>
-            <span class="badge badge-secondary badge-pill">3</span>
-          </h4>
+          
 
           <!-- Cart -->
-          <ul class="list-group mb-3 z-depth-1">
-            <li class="list-group-item d-flex justify-content-between lh-condensed">
-              <div>
-                <h6 class="my-0">Entrega a domicilio</h6>
-                <small class="text-muted">Solamente pagos en efectivo.</small>
-              </div>
-              <span class="text-muted">$2.00</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between lh-condensed">
-              <div>
-                <h6 class="my-0">Servicio online</h6>
-                <small class="text-muted">Brief description</small>
-              </div>
-              <span class="text-muted">$8.00</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between lh-condensed">
-              <div>
-                <h6 class="my-0">Reserva Cliente</h6>
-                <small class="text-muted">Brief description</small>
-              </div>
-              <span class="text-muted">$5.00</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between bg-light">
-              <div class="text-success">
-                <h6 class="my-0">Promoción</h6>
-                <small>EXAMPLECODE</small>
-              </div>
-              <span class="text-success">$5.00</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between">
-              <span>Total (USD)</span>
-              <strong>$20.00</strong>
-            </li>
-          </ul>
+          
           <!-- Cart -->
 
         </div>
@@ -223,7 +187,7 @@
     <!--Copyright-->
     <div class="footer-copyright py-3">
       © 2018 Copyright:
-      <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> MDBootstrap.com </a>
+      <a href="/" target="_blank"> PopMovies </a>
     </div>
     <!--/.Copyright-->
 

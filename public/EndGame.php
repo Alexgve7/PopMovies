@@ -10,30 +10,49 @@
             <!--Import materialize.css-->
             <link type="text/css" rel="stylesheet" href="../resources/Alejandro/css/materialize.min.css"  media="screen,projection"/>
             <link type="text/css" rel="stylesheet" href="../resources/Alejandro/css/home.css"  media="screen,projection"/></head>
+            <link rel="icon" href="../resources/Alejandro/img/Logo.ico">
 <body>
+<!--Menu Opciones -->
 <nav class="m-5" id="NavBar">
     <div class="nav-wrapper">   
         
-        <a href="#!" class="brand-logo justify"> PopMovies </a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <a href="/" class="brand-logo justify"> PopMovies </a>
+        <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">Javascript</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/public/We.php">Nosotros</a></li>
+            <li><a href="/public/contact.php">Contactos</a></li>
+            <li><a href="/public/Products.php">Catalogo</a></li>
+            <li><a href="/signup/">Registrate</a></li>
+            <li><a href="/login/">Iniciar Sesión</a></li>
         </ul>
     
     </div>
 </nav>
+<!--FIn Menu Opciones -->
+
+<!-- Menu Vertical -->
+<ul class="sidenav" id="mobile-demo">
+    
+    <li><a href="/public/We.php">Nosotros</a></li>
+    <li><a href="/public/contact.php">Contactos</a></li>
+    <li><a href="/public/Products.php">Catalogo</a></li>
+    <li><a href="/signup/">Registrate</a></li>
+    <li><a href="/login/">Iniciar Sesión</a></li>
+</ul>
+<!--Fin Menu Vertical -->
+
+<!--Contenido -->
 <div class="container">
     
+    <!--Titulo -->
     <div class="row Z-depht-4 center-align">
         <div class="card">
             <h4 class="center-align">End Game</h4>
         </div>
     </div>
 
-    
+    <!--Imagen -->    
     <div class="col s12 m7 ">
         <div class="card ">
             <div class="card-image center-align">
@@ -42,6 +61,7 @@
         </div>
     </div>            
 
+<!--Cartas de información -->
     <div class="card">
         <div class="card-content">
             <span class="card-title">La </span>
@@ -67,27 +87,28 @@
     <div class="card">
         <div class="card-content">
             <span class="card-title">Trailers y TV Spots</span>
-                <div class="row">
-                    <div class="col s12 m6 10">
-                        <div class="card">
-                            <div class="card-image">
-                                <video class="responsive-video" controls>
-                                    <source src="../resources/Alejandro/Videos/EndGameOne.mp4" type="video/mp4">
-                                </video>
-                            </div>
+            <!--Videos -->
+            <div class="row">
+                <div class="col s12 m6 10">
+                    <div class="card">
+                        <div class="card-image">
+                            <video class="responsive-video" controls>
+                                <source src="../resources/Alejandro/Videos/EndGameOne.mp4" type="video/mp4">
+                            </video>
                         </div>
                     </div>
-                    <div class="col s12 m6 10">
-                        <div class="card">
-                            <div class="card-image">
-                                <video class="responsive-video" controls>
-                                    <source src="../resources/Alejandro/Videos/EndGameTvSpot.mp4" type="video/mp4">
-                                </video>
-                            </div>
-                        </div>
-                    </div>
-                   
                 </div>
+                <div class="col s12 m6 10">
+                    <div class="card">
+                        <div class="card-image">
+                            <video class="responsive-video" controls>
+                                <source src="../resources/Alejandro/Videos/EndGameTvSpot.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Fin Videos -->
         </div>
     </div>
 </div>

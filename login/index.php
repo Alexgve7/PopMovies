@@ -23,7 +23,7 @@
     <div class="container">
 
       <!-- Ir al inicio -->
-      <a class="navbar-brand" href="#" target="_blank">
+      <a class="navbar-brand" href="/" target="_blank">
         <strong>PopMovies</strong>
       </a>
 

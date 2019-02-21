@@ -46,6 +46,7 @@ $data = $GetCon->query("SELECT * FROM genders")->fetchAll();
           <li><a class="waves-effect" href="#!"> <i class="material-icons blue-text">shop</i> Ventas</a></li>
           <li><a class="waves-effect" href="#!"> <i class="material-icons blue-text">account_circle</i> Usuarios</a></li>
           <li><a class="waves-effect" href="#!"> <i class="material-icons blue-text">bookmarks</i> Suscripciones</a></li>
+          <li><a class="waves-effect" href="#!"> <i class="material-icons blue-text">logoff</i>Cerrar Sesion</a></li>
         </ul>
         
         

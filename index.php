@@ -6,10 +6,10 @@ Public_page::header();
 
 <!--Menu vertical -->
   <ul class="sidenav" id="mobile-demo">
-    <li><a href="sass.html">Nosotros</a></li>
-    <li><a href="badges.html">Contactanos</a></li>
-    <li><a href="collapsible.html">Catalogo</a></li>
-    <li><a href="mobile.html">Iniciar Sesión</a></li>
+    <li><a href="/public/We.php">Nosotros</a></li>
+    <li><a href="/public/contact.php">Contactanos</a></li>
+    <li><a href="/public/products.php">Catalogo</a></li>
+    <li><a href="/login/">Iniciar Sesión</a></li>
   </ul>
 
 <!--Slider -->
@@ -223,7 +223,7 @@ Public_page::header();
           <div class="card-content">
             <span class="card-title">Capitana Marvel</span>  
             <p>¿Quieres saber más de esta fantastica pelicula? Hecha un vistazo!</p>
-            <a href="public/CaptainMarvel.php">Ver Información</a>
+            <a href="public/CaptainMarvel.php">Ver Trailer</a>
           </div>
       </div>
     </div>
@@ -236,7 +236,7 @@ Public_page::header();
         <div class="card-content">
           <span class="card-title">End Game</span>  
           <p>Viajes en el tiempo, heroes caidos. Estamos en lo ultimo</p>
-          <a href="public/EndGame.php">Ver Información</a>
+          <a href="public/EndGame.php">Ver Trailer</a>
         </div>
       </div>
     </div>
@@ -262,7 +262,7 @@ Public_page::header();
         <div class="card-content">
           <span class="card-title">Shazam</span>  
           <p>Una nueva forma de vivir, un gran heroismo y gran responsabilidad.</p>
-          <a href="#">Ver Trailer</a>
+          <a href="public/Shazam.php">Ver Trailer</a>
         </div>
       </div>
     </div>
@@ -314,8 +314,8 @@ Public_page::header();
             <div class="card blue-grey darken-1">
               <div class="card-content white-text">
                 <span class="card-title">Servicio Online</span>
-                <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
+                <p>Nosotros como empresa queremos que nuestro servicio online de compras de peliculas sea facil y rapido
+                  , más con los tipos de suscripción tus compras seran unicas y rapidas</p>
               </div>
               <div class="card-action">
                 <a href="#">This is a link</a>
@@ -328,8 +328,8 @@ Public_page::header();
             <div class="card blue-grey darken-1">
               <div class="card-content white-text">
                 <span class="card-title">Reserva Cliente</span>
-                <p>I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.</p>
+                <p>Nosotros con nuestras suscripciones buscamos que te sientas comodo como cliente que todo este al instante
+                y tambien podemos considerar precios preferenciales a nuestros usuarios, por las compras realizadas.</p>
               </div>
               <div class="card-action">
                 <a href="#">This is a link</a>

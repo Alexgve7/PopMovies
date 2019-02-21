@@ -13,6 +13,7 @@
             <link rel="icon" href="../resources/Alejandro/img/Logo.ico">
 </head>
 <body>
+<!--Menu Opciones -->
 <nav class="m-5" id="NavBar">
     <div class="nav-wrapper">
         <a href="#!" class="brand-logo justify"> PopMovies </a>
@@ -25,14 +26,18 @@
         </ul>
     </div>
 </nav>
+<!--Fin Menu Opciones -->
 
+<!--Menu Vertical -->
 <ul class="sidenav" id="mobile-demo">
     <li><a href="sass.html">Sass</a></li>
     <li><a href="badges.html">Components</a></li>
     <li><a href="collapsible.html">Javascript</a></li>
     <li><a href="mobile.html">Mobile</a></li>
 </ul>
+<!--Fin Menu Vertical -->
 
+<!--Contenido -->
 <div class="container">
   <div class="col s12 m10 offset-m1">
     <div class="card ">
@@ -74,6 +79,7 @@
             </div>
           </div>
           <!--Fin Formulario para envio de comentarios y mensajes -->
+
           <!--Anuncio -->
           <div class="col s12 m6">
             <div class="card z-depth-4">
@@ -92,6 +98,7 @@
           </div>
         </div>
         <!--FinAnuncio -->
+
         <!--Contenido de la carta -->
       </div>
     </div>

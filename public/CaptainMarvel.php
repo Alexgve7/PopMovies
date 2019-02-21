@@ -10,20 +10,32 @@
             <!--Import materialize.css-->
             <link type="text/css" rel="stylesheet" href="../resources/Alejandro/css/materialize.min.css"  media="screen,projection"/>
             <link type="text/css" rel="stylesheet" href="../resources/Alejandro/css/home.css"  media="screen,projection"/>
+            <link rel="icon" href="../resources/Alejandro/img/Logo.ico">
 </head>
 <body>
+
 <nav class="m-5" id="NavBar">
     <div class="nav-wrapper">
         <a href="#!" class="brand-logo justify"> PopMovies </a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">Javascript</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
+            <li><a href="/public/We.php">Nosotros</a></li>
+            <li><a href="/public/contact.php">Contactos</a></li>
+            <li><a href="/public/Products.php">Catalogo</a></li>
+            <li><a href="/signup/">Registrate</a></li>
+            <li><a href="/login/">Iniciar Sesión</a></li>
         </ul>
     </div>
 </nav>
+<!--Menu Vertical -->
+<ul class="sidenav" id="mobile-demo">
+    <li><a href="sass.html">Sass</a></li>
+    <li><a href="badges.html">Components</a></li>
+    <li><a href="collapsible.html">Javascript</a></li>
+    <li><a href="mobile.html">Mobile</a></li>
+</ul>
+<!--Fin Menu Vertical -->
+
 <div class="container">
     
     <div class="row Z-depht-4 center-align">
@@ -99,8 +111,8 @@
     </div>
 </div>
 
-    <script type="text/javascript" src="../resources/js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="../resources/Alejandro/js/materialize.min.js"></script>
-    <script type="text/javascript" src="../resources/Alejandro/js/pages/pages.js"></script>
+<script type="text/javascript" src="../resources/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="../resources/Alejandro/js/materialize.min.js"></script>
+<script type="text/javascript" src="../resources/Alejandro/js/pages/pages.js"></script>
 </body>
 </html>

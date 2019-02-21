@@ -24,7 +24,7 @@ class Public_page{
             <a href="#!" class="brand-logo justify"> PopMovies </a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="sass.html">Nosotros</a></li>
+                <li><a href="public/We.php">Nosotros</a></li>
                 <li><a href="public/contact.php">Contactos</a></li>
                 <li><a href="public/Products.php">Catalogo</a></li>
                 <li><a href="/login/">Registrate</a></li>
@@ -53,12 +53,8 @@ class Public_page{
                     </div>
                     </div>
                     <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Redes Sociales</h5>
                     <ul>
-                        <li><a class="grey-text text-lighten-3" href="#!"></a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                        
                     </ul>
                     </div>
                 </div>
@@ -66,7 +62,6 @@ class Public_page{
                 <div class="footer-copyright">
                 <div class="container">
                 © 2018 Copyright PopMovies
-                                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
                 </div>
                 </div>
             </footer>
