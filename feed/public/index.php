@@ -6,19 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PopMovies</title>
     <link rel="stylesheet" href="../../resources/public/css/materialize.min.css">
-    <link rel="stylesheet" href="../../resources/public/css/material_icons.css">
+    <link rel="stylesheet" href="../../resources/public/css/material-icons.css">
     <link rel="stylesheet" href="../../resources/public/css/css.index.css">
 </head>
 <body>
 <header>
-    <div class="navbar-fixed">
-        <nav class=" light-green accent-4">
+    <div class="navbar-fixed ">
+        <nav class="Navigation">
             <div class="nav-wrapper">
-                <a class="brand-logo center"> PopMovies </a>
+                <a class="brand-logo center black-text"> PopMovies </a>
                 <a href="/"> <img id="LogoPublic" src="../../resources/public/img/Logo.ico" alt=""> </a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
+                    <li><a class="black-text" href="">Sass</a></li>
+                    <li><a class="black-text" href="badges.html">Components</a></li>
                 </ul>
             </div>
         </nav>
@@ -28,31 +28,111 @@
 <!--Carrousel -->
 <div class="row">
 <div class="carousel medium carousel-slider">
-    <a class="carousel-item" href=""><img src="../../resources/public/img/slider/CapMarvel.jpg"></a>
-    <a class="carousel-item" href=""><img src="../../resources/public/img/slider/EndGame.jpg"></a>
-    <a class="carousel-item" href=""><img src="../../resources/public/img/slider/Shazam.jpg"></a>
-    <a class="carousel-item" href=""><img src="../../resources/public/img/slider/ToyStory.png"></a>
+    <a class="carousel-item"><img src="../../resources/public/img/slider/CapMarvel.jpg"></a>
+    <a class="carousel-item"><img src="../../resources/public/img/slider/EndGame.jpg"></a>
+    <a class="carousel-item"><img src="../../resources/public/img/slider/Shazam.jpg"></a>
+    <a class="carousel-item"><img src="../../resources/public/img/slider/ToyStory.png"></a>
+    <a class="carousel-item"><img src="../../resources/public/img/slider/PikachuDetective.jpg"></a>
+    <a class="carousel-item"><img src="../../resources/public/img/slider/HobbsandShaw.jpg"></a>
   </div>
 </div>
 <!--Fin Carrousel -->
-<div class="container">
-    <div class="col s12 m7">
-        <div class="card horizontal">
-            <div class="card-image">
-                <img src="../../resources/public/img/Logo.ico">
-            </div>
-            <div class="card-stacked">
-                <div class="card-content">
-                    <p class="card-title">¿Quienes Somos?</p>
-                    <div class="card-content"></div>
+<!--Presentacion -->
+<div class="row">
+    <div class="col s12 m12">
+    
+    <div class="card" style="background-color:black;">
+        <div class="card-content">
+            <span class="card-title white-text">Presentación</span>
+            <div class="card horizontal z-depth-4">
+                <div class="card-image">
+                        <img src="../../resources/public/img/Logo.ico">
                 </div>
-                <div class="card-action">
-                    <p>Esperamos que puedas preferirnos!</p>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p class="card-title">¿Quienes Somos?</p>
+                            <p>Somos PopMovies, la tienda que hara que tu entretenimiento en peliculas sea con la mejor calidad
+                            en productos, contando con las mejores peliculas actuales y las que tu quieras en poco tiempo :)</p>
+                    </div>
+                    <div class="card-action">
+                        <p>Esperamos que puedas preferirnos!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</div>
+<!--Fin Presentacion -->
+<!--Objetivos Empresariales -->
+<div class="row ">
+    <div class="col s12 m4">
+        <div class="card" style="background-color:black;">
+            <div class="card-content">
+            <span class="card-title white-text">Visión</span>                
+                <div class="card">
+                    <div class="card-content z-depth-4">
+                        <p>Hola</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col s12 m4">
+        <div class="card" style="background-color:black;">
+            <div class="card-content">
+            <span class="card-title white-text">Misión</span>                
+                <div class="card">
+                    <div class="card-content z-depth-4">
+                        <p>Hola</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col s12 m4">
+        <div class="card" style="background-color:black;">
+            <div class="card-content">
+                <span class="card-title white-text">Calidad</span>                
+                <div class="card">
+                    <div class="card-content z-depth-4">
+                        <p>Hola</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<!--Objetivos Empresariales -->
+<section>
+<div class="row">
+    <div class="col s12 m12">
+        <div class="card">
+            <div class="card-content">
+                <span class="card-title">¿Que ofrecemos?</span>
+                <div class="row">
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-content">Reserva y compra</div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-content">Reserva y compra</div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-content">Reserva y compra</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
 </main>
 <script src="../../resources/public/js/jquery-3.2.1.min.js"></script>    
 <script src="../../resources/public/js/materialize.min.js"></script> 
